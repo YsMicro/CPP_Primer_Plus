@@ -5,14 +5,14 @@
 #ifndef CPP_PRIMER_PLUS_MYTIME0_H
 #define CPP_PRIMER_PLUS_MYTIME0_H
 
-class Time {
+class Time0 {
 private:
     int hours;
     int minutes;
 public:
-    Time();
+    Time0();
 
-    Time(int h, int m = 0);
+    Time0(int h, int m = 0);
 
     void AddMin(int m);
 
@@ -20,7 +20,7 @@ public:
 
     void Reset(int h = 0, int m = 0);
 
-    Time Sum(const Time &t) const;
+    Time0 Sum(const Time0 &t) const;
 
     void Show() const;
 };

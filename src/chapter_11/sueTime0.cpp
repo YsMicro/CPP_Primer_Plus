@@ -6,10 +6,10 @@
 
 int my_time0() {
     using namespace std;
-    Time planning;
-    Time coding(2, 40);
-    Time fixing(5, 55);
-    Time total;
+    Time0 planning;
+    Time0 coding(2, 40);
+    Time0 fixing(5, 55);
+    Time0 total;
 
     cout << "planning time = ";
     planning.Show();

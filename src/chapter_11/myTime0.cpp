@@ -4,38 +4,38 @@
 #include <iostream>
 #include "myTime0.h"
 
-Time::Time() {
+Time0::Time0() {
     hours = minutes = 0;
 }
 
-Time::Time(int h, int m) {
+Time0::Time0(int h, int m) {
     hours = h;
     minutes = m;
 }
 
-void Time::AddMin(int m) {
+void Time0::AddMin(int m) {
     minutes += m;
     hours += m / 60;
     minutes %= 60;
 }
 
-void Time::AddHr(int h) {
+void Time0::AddHr(int h) {
     hours += h;
 }
 
-void Time::Reset(int h, int m) {
+void Time0::Reset(int h, int m) {
     hours = h;
     minutes = m;
 }
 
-Time Time::Sum(const Time &t) const {
-    Time sum;
+Time0 Time0::Sum(const Time0 &t) const {
+    Time0 sum;
     sum.minutes = minutes + t.minutes;
     sum.hours = hours + t.hours + sum.minutes / 60;
     sum.minutes %= 60;
     return sum;
 }
 
-void Time::Show() const {
+void Time0::Show() const {
     std::cout << hours << " 小时， " << minutes << " 分钟";
 }
