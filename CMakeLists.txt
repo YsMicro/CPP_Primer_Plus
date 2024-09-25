@@ -22,4 +22,7 @@ add_executable(CPP_Primer_Plus main.cpp
         src/chapter_11/sueTime0.cpp
         src/chapter_11/myTime1.cpp
         src/chapter_11/myTime1.h
-        src/chapter_11/useTime1.cpp)
+        src/chapter_11/useTime1.cpp
+        src/chapter_11/myTime2.cpp
+        src/chapter_11/myTime2.h
+        src/chapter_11/useTime2.cpp)

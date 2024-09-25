@@ -9,4 +9,6 @@
 
 [[maybe_unused]] int my_time1();
 
+[[maybe_unused]] int my_time2();
+
 #endif //CPP_PRIMER_PLUS_CHAPTER_11_HEAD_H
