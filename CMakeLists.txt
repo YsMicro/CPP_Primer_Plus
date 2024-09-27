@@ -28,4 +28,7 @@ add_executable(CPP_Primer_Plus main.cpp
         src/chapter_11/useTime2.cpp
         src/chapter_11/myTime3.cpp
         src/chapter_11/myTime3.h
-        src/chapter_11/useTime3.cpp)
+        src/chapter_11/useTime3.cpp
+        src/chapter_11/vector.cpp
+        src/chapter_11/vector.h
+        src/chapter_11/randwalk.cpp)

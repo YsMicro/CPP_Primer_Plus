@@ -13,4 +13,6 @@
 
 [[maybe_unused]] int my_time3();
 
+[[maybe_unused]] int Vector_main();
+
 #endif //CPP_PRIMER_PLUS_CHAPTER_11_HEAD_H
