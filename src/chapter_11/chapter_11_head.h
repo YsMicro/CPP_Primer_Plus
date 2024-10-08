@@ -15,4 +15,6 @@
 
 [[maybe_unused]] int Vector_main();
 
+[[maybe_unused]] int stone_main();
+
 #endif //CPP_PRIMER_PLUS_CHAPTER_11_HEAD_H

@@ -31,4 +31,7 @@ add_executable(CPP_Primer_Plus main.cpp
         src/chapter_11/useTime3.cpp
         src/chapter_11/vector.cpp
         src/chapter_11/vector.h
-        src/chapter_11/rand_walk.cpp)
+        src/chapter_11/rand_walk.cpp
+        src/chapter_11/stoneWT.h
+        src/chapter_11/stoneWT.cpp
+        src/chapter_11/stone.cpp)
