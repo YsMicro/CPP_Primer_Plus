@@ -6,5 +6,8 @@
 
 int chapter_12_main() {
     vegNews_main();
+//    sayings1_main();
+//    sayings2_main();
+//    vegNews_NOT_bad_main();
     return 0;
 }

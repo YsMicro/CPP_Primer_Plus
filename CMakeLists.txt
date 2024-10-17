@@ -34,4 +34,13 @@ add_executable(CPP_Primer_Plus main.cpp
         src/chapter_11/rand_walk.cpp
         src/chapter_11/stoneWT.h
         src/chapter_11/stoneWT.cpp
-        src/chapter_11/stone.cpp)
+        src/chapter_11/stone.cpp
+        src/chapter_12/sayings1.cpp
+        src/chapter_12/sayings2.cpp
+        src/chapter_12/string1.cpp
+        src/chapter_12/string_NOT_bad.cpp
+        src/chapter_12/string_NOT_bad.h
+        src/chapter_13/tab_tenn1.cpp
+        src/chapter_13/tab_tenn1.h
+
+)
