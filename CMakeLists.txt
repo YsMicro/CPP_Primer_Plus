@@ -40,7 +40,10 @@ add_executable(CPP_Primer_Plus main.cpp
         src/chapter_12/string1.cpp
         src/chapter_12/string_NOT_bad.cpp
         src/chapter_12/string_NOT_bad.h
+        src/chapter_13/chapter_13_head.h
+        src/chapter_13/chapter_13_main.cpp
         src/chapter_13/tab_tenn1.cpp
         src/chapter_13/tab_tenn1.h
+        src/chapter_13/use_tt1.cpp
 
 )
