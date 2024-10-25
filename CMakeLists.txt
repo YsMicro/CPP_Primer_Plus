@@ -45,5 +45,20 @@ add_executable(CPP_Primer_Plus main.cpp
         src/chapter_13/tab_tenn1.cpp
         src/chapter_13/tab_tenn1.h
         src/chapter_13/use_tt1.cpp
+        src/chapter_2/02.01_myfirst.cpp
+        src/chapter_2/02.02_carrots.cpp
+        src/chapter_2/02.03_getinfo.cpp
+        src/chapter_2/02.04_sqrt.cpp
+        src/chapter_2/02.05_ourfunc.cpp
+        src/chapter_2/02.06_convert.cpp
+        src/chapter_2/head.h
+        src/chapter_2/main.cpp
+        src/chapter_2/Test_1.cpp
+        src/chapter_2/Test_2.cpp
+        src/chapter_2/Test_3.cpp
+        src/chapter_2/Test_4.cpp
+        src/chapter_2/Test_5.cpp
+        src/chapter_2/Test_6.cpp
+        src/chapter_2/Test_7.cpp
 
 )
