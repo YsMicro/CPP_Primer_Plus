@@ -60,5 +60,64 @@ add_executable(CPP_Primer_Plus main.cpp
         src/chapter_2/Test_5.cpp
         src/chapter_2/Test_6.cpp
         src/chapter_2/Test_7.cpp
+        src/chapter_3/03.01_limits.cpp
+        src/chapter_3/03.02_exceed.cpp
+        src/chapter_3/03.03_hexoct1.cpp
+        src/chapter_3/03.04_hexoct2.cpp
+        src/chapter_3/03.05_chartype.cpp
+        src/chapter_3/03.06_morechar.cpp
+        src/chapter_3/03.07_bondini.cpp
+        src/chapter_3/03.08_floatnum.cpp
+        src/chapter_3/03.09_fltadd.cpp
+        src/chapter_3/03.10_arith.cpp
+        src/chapter_3/03.11_divide.cpp
+        src/chapter_3/03.12_modulus.cpp
+        src/chapter_3/03.13_assign.cpp
+        src/chapter_3/03.14_typecast.cpp
+        src/chapter_3/exercise_1.cpp
+        src/chapter_3/exercise_2.cpp
+        src/chapter_3/exercise_3.cpp
+        src/chapter_3/exercise_4.cpp
+        src/chapter_3/exercise_5.cpp
+        src/chapter_3/exercise_6.cpp
+        src/chapter_3/exercise_7.cpp
+        src/chapter_3/head.h
+        src/chapter_3/main.cpp
+        src/chapter_4/04.01_arrayone.cpp
+        src/chapter_4/04.02_string.cpp
+        src/chapter_4/04.03_instr1.cpp
+        src/chapter_4/04.04_instr2.cpp
+        src/chapter_4/04.05_instr3.cpp
+        src/chapter_4/04.06_numstr.cpp
+        src/chapter_4/04.07_strtype1.cpp
+        src/chapter_4/04.08_strtype2.cpp
+        src/chapter_4/04.09_strtype3.cpp
+        src/chapter_4/04.10_strtype4.cpp
+        src/chapter_4/04.11_structur.cpp
+        src/chapter_4/04.12_assgn_st.cpp
+        src/chapter_4/04.13_arrstruc.cpp
+        src/chapter_4/04.14_address.cpp
+        src/chapter_4/04.15_pointer.cpp
+        src/chapter_4/04.16_init_ptr.cpp
+        src/chapter_4/04.17_use_new.cpp
+        src/chapter_4/04.18_arraynew.cpp
+        src/chapter_4/04.19_addpntrs.cpp
+        src/chapter_4/04.20_ptrstr.cpp
+        src/chapter_4/04.21_newstrct.cpp
+        src/chapter_4/04.22_dalete.cpp
+        src/chapter_4/04.23_mixtypes.cpp
+        src/chapter_4/04.24_choices.cpp
+        src/chapter_4/head.h
+        src/chapter_4/main.cpp
+        src/chapter_4/practice_1.cpp
+        src/chapter_4/practice_2.cpp
+        src/chapter_4/practice_3.cpp
+        src/chapter_4/practice_4.cpp
+        src/chapter_4/practice_5.cpp
+        src/chapter_4/practice_6.cpp
+        src/chapter_4/practice_7.cpp
+        src/chapter_4/practice_8.cpp
+        src/chapter_4/practice_9.cpp
+        src/chapter_4/practice_10.cpp
 
 )
