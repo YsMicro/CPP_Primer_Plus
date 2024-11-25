@@ -1,18 +1,18 @@
-//ÏÔÊ¾Ê±¼ä
-#include "head.h"
+//ï¿½ï¿½Ê¾Ê±ï¿½ï¿½
+#include "chapter_2_head.h"
 
 void time(int h, int m)
 {
-    cout << endl << "Ê±¼ä£º" << h << ":" << m << endl;
+    cout << endl << "Ê±ï¿½ä£º" << h << ":" << m << endl;
 }
 
 int time_main()
 {
     int h;
     int m;
-    cout << "ÊäÈëÐ¡Ê±£º";
+    cout << "ï¿½ï¿½ï¿½ï¿½Ð¡Ê±ï¿½ï¿½";
     cin >> h;
-    cout << endl << "ÊäÈë·ÖÖÓ£º";
+    cout << endl << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó£ï¿½";
     cin >> m;
     time(h,m);
     return 0;

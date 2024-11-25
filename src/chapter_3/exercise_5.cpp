@@ -1,14 +1,14 @@
-#include "head.h"
+#include <iostream>
 
-int population()
+int chapter_3_population()
 {
-    long long all_popu = 0;
-    long long us_popu = 0;
-
-    cout << "输入全球人口：";
-    cin >> all_popu;
-    cout << "输入美国人口：";
-    cin >> us_popu;
-    cout << "美国人口占全球人口的 " << long double(us_popu) / long double(all_popu) * 100 << "% 。";
+    using namespace std;
+    long long global_population;
+    long long usa_population;
+    std::cout << "杈撳叆鍏ㄧ悆浜哄彛鏁伴噺: ";
+    std::cin >> global_population;
+    std::cout << "杈撳叆缇庡浗浜哄彛鏁伴噺: ";
+    std::cin >> usa_population;
+    cout << "缇庡浗浜哄彛鍗犲叏鐞冧汉鍙ｇ殑鐧惧垎姣斾负: " << static_cast<double>(usa_population) / global_population * 100 << "%" << endl;
     return 0;
 }

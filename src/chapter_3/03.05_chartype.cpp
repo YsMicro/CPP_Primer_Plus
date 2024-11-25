@@ -1,12 +1,12 @@
-#include "head.h"
+#include "chapter_3_head.h"
 
 int chartype()
 {
-    char ch;//ÉùÃ÷char±äÁ¿
+    char ch;//ï¿½ï¿½ï¿½ï¿½charï¿½ï¿½ï¿½ï¿½
 
-    cout << "¼üÈë×Ö·û£º" << endl;
+    cout << "ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½" << endl;
     cin >> ch;
-    cout << "Hola£¡";
-    cout << "¸ĞĞ» " << ch << " ×Ö·û¡£" << endl;
+    cout << "Holaï¿½ï¿½";
+    cout << "ï¿½ï¿½Ğ» " << ch << " ï¿½Ö·ï¿½ï¿½ï¿½" << endl;
     return 0;
 }

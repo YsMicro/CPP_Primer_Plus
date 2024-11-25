@@ -1,8 +1,8 @@
-#include "head.h"
+#include "chapter_4_head.h"
 #include <vector>
 #include <array>
 
-int main()
+int chapter_4_main()
 {
     //arrayone();
     //strings();
@@ -71,7 +71,7 @@ int main()
     //cout << *(pt + 8) << endl;
 
     //unsigned int size;
-    //cout << "ÊäÈëÊý×Ö£º";
+    //cout << "è¾“å…¥æ•°å­—ï¼š";
     //cin >> size;
     //int* dyn = new int[size];
     //vector<int> dv(size);
@@ -88,7 +88,7 @@ int main()
     //};
 
     //fish* plom = new fish;
-    //cout << "ÊäÈë£º";
+    //cout << "è¾“å…¥ï¼š";
     //cin >> plom->kind;
     //cout << plom->kind;
 

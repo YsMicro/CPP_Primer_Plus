@@ -1,24 +1,24 @@
-//charĞÍÓëintĞÍ¶Ô±È
-#include "head.h"
+//charï¿½ï¿½ï¿½ï¿½intï¿½Í¶Ô±ï¿½
+#include "chapter_3_head.h"
 
 int morechar()
 {
     char ch = 'M';
     int i = ch;
-    cout << ch << " µÄASCIIÂëÊÇ " << i << " ¡£" << endl;
+    cout << ch << " ï¿½ï¿½ASCIIï¿½ï¿½ï¿½ï¿½ " << i << " ï¿½ï¿½" << endl;
 
-    cout << "×Ö·ûÂë¼ÓÒ»£º" << endl;
+    cout << "ï¿½Ö·ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½" << endl;
     ch = ch + 1;
     i = ch;
-    cout << ch << " µÄASCIIÂëÊÇ " << i << " ¡£" << endl;
+    cout << ch << " ï¿½ï¿½ASCIIï¿½ï¿½ï¿½ï¿½ " << i << " ï¿½ï¿½" << endl;
 
-    //Ê¹ÓÃ cout.put() ³ÉÔ±º¯ÊıÏÔÊ¾×Ö·û
-    cout << "Ê¹ÓÃ cout.put() º¯ÊıÏÔÊ¾ ch £º";
+    //Ê¹ï¿½ï¿½ cout.put() ï¿½ï¿½Ô±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½Ö·ï¿½
+    cout << "Ê¹ï¿½ï¿½ cout.put() ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ ch ï¿½ï¿½";
     cout.put(ch);
 
-    //Ê¹ÓÃ cout.put() ÏÔÊ¾×Ö·û³£Á¿
+    //Ê¹ï¿½ï¿½ cout.put() ï¿½ï¿½Ê¾ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½
     cout.put('!');
     
-    cout << endl << "Íê±Ï" << endl;
+    cout << endl << "ï¿½ï¿½ï¿½" << endl;
     return 0;
 }

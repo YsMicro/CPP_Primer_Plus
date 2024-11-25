@@ -1,14 +1,14 @@
-//C++Ëã·¨
-#include "head.h"
+//C++ï¿½ã·¨
+#include "chapter_3_head.h"
 
 int arith()
 {
     float hats, heads;
 
     cout.setf(ios_base::fixed, ios_base::floatfield);
-    cout << "ÊäÈëÊı×Ö£º";
+    cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö£ï¿½";
     cin >> hats;
-    cout << "ÔÙÊäÒ»¸ö£º";
+    cout << "ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½";
     cin >> heads;
 
     cout << "hats = " << hats << " ; heads = " << heads << endl;

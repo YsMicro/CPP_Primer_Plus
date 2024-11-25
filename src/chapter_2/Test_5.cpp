@@ -1,11 +1,11 @@
-//摄氏度转换华氏度
-#include "head.h"
+//锟斤拷锟较讹拷转锟斤拷锟斤拷锟较讹拷
+#include "chapter_2_head.h"
 
 void temperature()
 {
     double t;
-    cout << "输入摄氏度：";
+    cout << "锟斤拷锟斤拷锟斤拷锟较度ｏ拷";
     cin >> t;
     cout << endl;
-    cout << "对应的华氏度为：" << 1.8 * t + 32.0 << endl;
+    cout << "锟斤拷应锟侥伙拷锟较讹拷为锟斤拷" << 1.8 * t + 32.0 << endl;
 }

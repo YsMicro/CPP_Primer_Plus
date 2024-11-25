@@ -1,16 +1,16 @@
-//ÕûÊýºÍ¸¡µã³ý·¨
-#include "head.h"
+//ï¿½ï¿½ï¿½ï¿½ï¿½Í¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#include "chapter_3_head.h"
 
 int divide()
 {
     cout.setf(ios_base::fixed, ios_base::floatfield);
-    cout << "ÕûÊý³ý·¨£º9 / 5 = " << 9 / 5 << endl;
-    cout << "¸¡µã³ý·¨£º9.0 / 5.0 = ";
+    cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½9 / 5 = " << 9 / 5 << endl;
+    cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½9.0 / 5.0 = ";
     cout << 9.0 / 5.0 << endl;
-    cout << "»ìºÏ³ý·¨£º9.0 / 5 = " << 9.0 / 5 << endl;
-    cout << "double ³£Á¿£º1E7 / 9.0 = ";
+    cout << "ï¿½ï¿½Ï³ï¿½ï¿½ï¿½ï¿½ï¿½9.0 / 5 = " << 9.0 / 5 << endl;
+    cout << "double ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½1E7 / 9.0 = ";
     cout << 1.E7 / 9.0 << endl;
-    cout << "float ³£Á¿£º1e7f / 9.0f = ";
+    cout << "float ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½1e7f / 9.0f = ";
     cout << 1.e7f / 9.0f << endl;
     return 0;
 }

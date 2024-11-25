@@ -1,19 +1,19 @@
-//强制类型转换
-#include "head.h"
+//强锟斤拷锟斤拷锟斤拷转锟斤拷
+#include "chapter_3_head.h"
 
 int typecast()
 {
     int auks, bats, coots;
-    auks = 19.99 + 11.99;//计算double值转换为int
-    bats = (int)19.99 + (int)11.99;//作为int值计算
-    coots = int(19.99) + int(11.99);//同上
+    auks = 19.99 + 11.99;//锟斤拷锟斤拷double值转锟斤拷为int
+    bats = (int)19.99 + (int)11.99;//锟斤拷为int值锟斤拷锟斤拷
+    coots = int(19.99) + int(11.99);//同锟斤拷
     cout << "auks = " << auks << " , bats = " << bats;
     cout << " , coots = " << coots << endl;
 
     char ch = 'Z';
-    cout << ch << " 的ASCII码是 ";
+    cout << ch << " 锟斤拷ASCII锟斤拷锟斤拷 ";
     cout << int(ch) << endl;
-    cout << "重复，确实是 ";
+    cout << "锟截革拷锟斤拷确实锟斤拷 ";
     cout << static_cast<int> (ch) << endl;
     return 0;
 }

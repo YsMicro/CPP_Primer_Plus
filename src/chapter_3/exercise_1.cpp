@@ -1,5 +1,5 @@
-//Éí¸ß×ª»¯
-#include "head.h"
+//ï¿½ï¿½ï¿½ï¿½×ªï¿½ï¿½
+#include "chapter_3_head.h"
 
 int height()
 {
@@ -7,10 +7,10 @@ int height()
     const int Cm_per_m = 100;
     int m;
 
-    cout << "ÊäÈëÉí¸ß(ÀåÃ×)£º___\b\b\b";
+    cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½)ï¿½ï¿½___\b\b\b";
     cin >> cm;
     m = cm / Cm_per_m;
     cm = cm % Cm_per_m;
-    cout << endl << "ÄãµÄÉí¸ßÎª£º" << m << " Ã× " << cm << " ÀåÃ×";
+    cout << endl << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½" << m << " ï¿½ï¿½ " << cm << " ï¿½ï¿½ï¿½ï¿½";
     return 0;
 }

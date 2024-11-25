@@ -1,4 +1,4 @@
-#include "head.h"
+#include "chapter_4_head.h"
 
 int instr3()
 {
@@ -6,11 +6,11 @@ int instr3()
     char name[ARSIZE];
     char dessert[ARSIZE];
 
-    cout << "ÊäÈëÐÕÃû£º\n";
-    cin.get(name, ARSIZE).get();//¶ÁÈ¡×Ö·û´®£¬»»ÐÐ·û
-    cout << "ÊäÈëÄã×îÏ²»¶µÄÌðÆ·£º\n";
+    cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\n";
+    cin.get(name, ARSIZE).get();//ï¿½ï¿½È¡ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð·ï¿½
+    cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ·ï¿½ï¿½\n";
     cin.get(dessert, ARSIZE).get();
-    cout << "ÎÒÓÐÃÀÎ¶µÄ " << dessert;
-    cout << " ¸øÄã£¬" << name << " ¡£\n";
+    cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¶ï¿½ï¿½ " << dessert;
+    cout << " ï¿½ï¿½ï¿½ã£¬" << name << " ï¿½ï¿½\n";
     return 0;
 }

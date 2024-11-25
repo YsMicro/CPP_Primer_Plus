@@ -1,5 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS
-#include "head.h"
+#include "chapter_4_head.h"
 #include <cstring>
 
 int ptrstr()

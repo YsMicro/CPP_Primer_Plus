@@ -1,4 +1,4 @@
-#include "head.h"
+#include "chapter_4_head.h"
 #include <string>
 
 int practice_4()
@@ -6,11 +6,11 @@ int practice_4()
     string first_name, last_name;
     string full_name;
 
-    cout << "ÊäÈëÄãµÄfirstname£º";
+    cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½firstnameï¿½ï¿½";
     getline(cin, first_name);
-    cout << "ÊäÈëÄãµÄlastname£º";
+    cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½lastnameï¿½ï¿½";
     getline(cin, last_name);
     full_name = last_name + ", " + first_name;
-    cout << "ÔÚµ¥¸ö×Ö·û´®ÖÐÏÔÊ¾ÐÅÏ¢£º" << full_name << endl; 
+    cout << "ï¿½Úµï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½Ï¢ï¿½ï¿½" << full_name << endl; 
     return 0;
 }

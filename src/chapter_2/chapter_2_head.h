@@ -1,3 +1,5 @@
+#ifndef CHAPTER_2_HEADER_H
+#define CHAPTER_2_HEADER_H
 #include <iostream>
 using namespace std;
 
@@ -15,3 +17,4 @@ int year_month();
 void temperature();
 int L_Y_main();
 int time_main();
+#endif

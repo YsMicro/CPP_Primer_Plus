@@ -1,4 +1,4 @@
-#include "head.h"
+#include "chapter_4_head.h"
 #include <string>
 #include <cstring>
 
@@ -7,19 +7,19 @@ int strtype4()
     char charr[20];
     string str;
 
-    cout << "ÊäÈëÇ° charr ×Ö·û´®µÄ³¤¶È£º"
+    cout << "ï¿½ï¿½ï¿½ï¿½Ç° charr ï¿½Ö·ï¿½ï¿½ï¿½ï¿½Ä³ï¿½ï¿½È£ï¿½"
         << strlen(charr) << endl;
-    cout << "ÊäÈëÇ° str ×Ö·û´®µÄ³¤¶È£º"
+    cout << "ï¿½ï¿½ï¿½ï¿½Ç° str ï¿½Ö·ï¿½ï¿½ï¿½ï¿½Ä³ï¿½ï¿½È£ï¿½"
         << str.size() << endl;
-    cout << "¼üÈëÒ»ÐÐÎÄ±¾£º\n";
-    cin.getline(charr, 20);//Ö¸³ö×î´ó³¤¶È
-    cout << "ÄãÊäÈëÁË£º" << charr << endl;
-    cout << "¼üÈëÁíÒ»ÐÐÎÄ±¾£º\n";
-    getline(cin, str);//cin ÏÖÔÚÊÇ²ÎÊý£»Ã»ÓÐ³¤¶ÈÖ¸Ê¾·û
-    cout << "ÄãÊäÈëÁË£º" << str << endl;
-    cout << "ÊäÈëºó charr ×Ö·û´®µÄ³¤¶È£º"
+    cout << "ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ä±ï¿½ï¿½ï¿½\n";
+    cin.getline(charr, 20);//Ö¸ï¿½ï¿½ï¿½ï¿½ó³¤¶ï¿½
+    cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë£ï¿½" << charr << endl;
+    cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ä±ï¿½ï¿½ï¿½\n";
+    getline(cin, str);//cin ï¿½ï¿½ï¿½ï¿½ï¿½Ç²ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½Ð³ï¿½ï¿½ï¿½Ö¸Ê¾ï¿½ï¿½
+    cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë£ï¿½" << str << endl;
+    cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ charr ï¿½Ö·ï¿½ï¿½ï¿½ï¿½Ä³ï¿½ï¿½È£ï¿½"
         << strlen(charr) << endl;
-    cout << "ÊäÈëºó str ×Ö·û´®µÄ³¤¶È£º"
+    cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ str ï¿½Ö·ï¿½ï¿½ï¿½ï¿½Ä³ï¿½ï¿½È£ï¿½"
         << str.size() << endl;
 
     return 0;

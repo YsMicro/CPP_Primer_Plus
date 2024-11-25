@@ -1,16 +1,16 @@
-//getinfo.cpp ÊäÈëÓëÊä³ö
+//getinfo.cpp ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 #include <iostream>
-#include "head.h"
+#include "chapter_2_head.h"
 
 int getinfo()
 {
     int carrots;
-    cout << "ÄãÓĞ¶àÉÙcarrots?" << endl;
+    cout << "ï¿½ï¿½ï¿½Ğ¶ï¿½ï¿½ï¿½carrots?" << endl;
     cin >> carrots;
-    cout << "ÔÙÀ´Á½¸ö.";
+    cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.";
     carrots = carrots + 2;
-    //ÏÂÒ»ĞĞÁ¬ËøÊä³ö
-    cout << "ÏÖÔÚÓĞ " << carrots << " carrots." << endl;
+    //ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ " << carrots << " carrots." << endl;
     return 0;
 }

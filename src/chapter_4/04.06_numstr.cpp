@@ -1,17 +1,17 @@
-#include "head.h"
+#include "chapter_4_head.h"
 
 int numstr()
 {
-    cout << "Äã·¿×ÓÄÄÄêÔìµÄ£¿\n";
+    cout << "ï¿½ã·¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½\n";
     int year;
     cin >> year;
     cin.get();
-    cout << "Äã·¿×ÓÔÚÄÄÌõ½Ö£¿\n";
+    cout << "ï¿½ã·¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö£ï¿½\n";
     char address[80];
     cin.getline(address, 80);
     //cin >> address;
-    cout << "½¨ÔìÄê·İ£º" << year << endl;
-    cout << "µØÖ·£º" << address << endl;
-    cout << "Íê±Ï£¡\n";
+    cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½İ£ï¿½" << year << endl;
+    cout << "ï¿½ï¿½Ö·ï¿½ï¿½" << address << endl;
+    cout << "ï¿½ï¿½Ï£ï¿½\n";
     return 0;
 }

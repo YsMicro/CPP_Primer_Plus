@@ -1,5 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS
-#include "head.h"
+#include "chapter_4_head.h"
 #include <cstring>
 
 char* getname(void);
@@ -21,7 +21,7 @@ int delete_main()
 char* getname()
 {
     char temp[80];
-    cout << "ÊäÈëÐÕÃû£º";
+    cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½";
     cin >> temp;
     char* pn = new char[strlen(temp) + 1];
     strcpy(pn, temp);

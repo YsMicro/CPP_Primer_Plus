@@ -1,5 +1,5 @@
-//ÕûÐÍÏÞÖÆÒç³ö
-#include "head.h"
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#include "chapter_3_head.h"
 #define ZERO 0
 #include <climits>
 
@@ -8,21 +8,21 @@ int exceed()
     short sam = SHRT_MAX;
     unsigned short sue = sam;
     
-    cout << "Sam ÓÐ " << sam << " ÃÀÔª£¬Sue ÓÐ " << sue;
-    cout << " ÃÀÔªµÄ´æ¿î¡£" << endl
-    << "¸øÃ¿ÈËÔö¼ÓÒ»ÃÀÔª¡£" << endl << "ÏÖÔÚ ";
+    cout << "Sam ï¿½ï¿½ " << sam << " ï¿½ï¿½Ôªï¿½ï¿½Sue ï¿½ï¿½ " << sue;
+    cout << " ï¿½ï¿½Ôªï¿½Ä´ï¿½î¡£" << endl
+    << "ï¿½ï¿½Ã¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ôªï¿½ï¿½" << endl << "ï¿½ï¿½ï¿½ï¿½ ";
     sam = sam + 1;
     sue = sue + 1;
-    cout << "Sam ÓÐ " << sam << " ÃÀÔª£¬Sue ÓÐ " << sue;
-    cout << " ÃÀÔªµÄ´æ¿î¡£\n¿ÉÁ¯µÄ Sam £¡" << endl;
+    cout << "Sam ï¿½ï¿½ " << sam << " ï¿½ï¿½Ôªï¿½ï¿½Sue ï¿½ï¿½ " << sue;
+    cout << " ï¿½ï¿½Ôªï¿½Ä´ï¿½î¡£\nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Sam ï¿½ï¿½" << endl;
     sam = ZERO;
     sue = ZERO;
-    cout << "Sam ÓÐ " << sam << " ÃÀÔª£¬Sue ÓÐ " << sue;
-    cout << " ÃÀÔªµÄ´æ¿î¡£" << endl;
-    cout << "Ã¿ÈËÄÃ×ßÒ»ÃÀÔª¡£" << endl << "ÏÖÔÚ ";
+    cout << "Sam ï¿½ï¿½ " << sam << " ï¿½ï¿½Ôªï¿½ï¿½Sue ï¿½ï¿½ " << sue;
+    cout << " ï¿½ï¿½Ôªï¿½Ä´ï¿½î¡£" << endl;
+    cout << "Ã¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ôªï¿½ï¿½" << endl << "ï¿½ï¿½ï¿½ï¿½ ";
     sam = sam - 1;
     sue = sue - 1;
-    cout << "Sam ÓÐ " << sam << " ÃÀÔª£¬Sue ÓÐ " << sue;
-    cout << " ÃÀÔªµÄ´æ¿î¡£" << endl << " ×ßÔËµÄ Sue £¡" << endl;
+    cout << "Sam ï¿½ï¿½ " << sam << " ï¿½ï¿½Ôªï¿½ï¿½Sue ï¿½ï¿½ " << sue;
+    cout << " ï¿½ï¿½Ôªï¿½Ä´ï¿½î¡£" << endl << " ï¿½ï¿½ï¿½Ëµï¿½ Sue ï¿½ï¿½" << endl;
     return 0;
 }

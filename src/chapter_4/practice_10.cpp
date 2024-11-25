@@ -1,16 +1,16 @@
-#include "head.h"
+#include "chapter_4_head.h"
 #include <array>
 
 int practice_10()
 {
     array<double, 3> result;
-    cout << "ÊäÈëÈı´Î³É¼¨£º";
+    cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î³É¼ï¿½ï¿½ï¿½";
     cin >> result[0];
     cin >> result[1];
     cin >> result[2];
     double(avg_result) = (result[0] + result[1] + result[2]) / 3;
-    cout << "Èı´Î·Ö±ğÊÇ£º" << result[0] << ", "
+    cout << "ï¿½ï¿½ï¿½Î·Ö±ï¿½ï¿½Ç£ï¿½" << result[0] << ", "
         << result[1] << ", " << result[2] << endl;
-    cout << "Æ½¾ù³É¼¨£º" << avg_result << endl;
+    cout << "Æ½ï¿½ï¿½ï¿½É¼ï¿½ï¿½ï¿½" << avg_result << endl;
     return 0;
 }

@@ -1,12 +1,12 @@
-//myname.cpp Êä³öĞÕÃûºÍµØÖ·
+//myname.cpp ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Íµï¿½Ö·
 
 #include <iostream>
-#include "head.h"
+#include "chapter_2_head.h"
 
 int myname()
 {
-    string name = "ÑîÎ°º½";
-    string address = "ÉÂÎ÷Ê¡ÓÜÁÖÊĞÓÜÑôÇø³çÎÄÂ·ÓÜÁÖÑ§Ôº";
+    string name = "ï¿½ï¿½Î°ï¿½ï¿½";
+    string address = "ï¿½ï¿½ï¿½ï¿½Ê¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â·ï¿½ï¿½ï¿½ï¿½Ñ§Ôº";
     cout << name << endl;
     cout << address << endl;
     return 0;

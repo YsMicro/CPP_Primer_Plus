@@ -1,14 +1,14 @@
-//整型小数组
-#include "head.h"
+//锟斤拷锟斤拷小锟斤拷锟斤拷
+#include "chapter_4_head.h"
 
 int arrayone()
 {
-    int yams[3] = {0};//创建三个元素的数组
-    yams[0] = 7;//给第一个元素分配值
+    int yams[3] = {0};//锟斤拷锟斤拷锟斤拷锟斤拷元锟截碉拷锟斤拷锟斤拷
+    yams[0] = 7;//锟斤拷锟斤拷一锟斤拷元锟截凤拷锟斤拷值
     yams[1] = 8;
     yams[2] = 6;
 
-    int yamcosts[3] = { 20, 30, 5 };//创建并初始化数组
+    int yamcosts[3] = { 20, 30, 5 };//锟斤拷锟斤拷锟斤拷锟斤拷始锟斤拷锟斤拷锟斤拷
 
     cout << "Total yams = ";
     cout << yams[0] + yams[1] + yams[2] << endl;

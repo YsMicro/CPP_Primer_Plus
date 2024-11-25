@@ -1,8 +1,8 @@
-#include "head.h"
+#include "chapter_2_head.h"
 
-int main()
+int chapter_2_main()
 {
-    //myfirst();
+    myfirst();
     //carrots();
     //getinfo();
     //sqrt();
@@ -15,4 +15,5 @@ int main()
     //temperature();
     //L_Y_main();
     //time_main();
+    return 0;
 }

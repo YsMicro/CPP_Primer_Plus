@@ -1,5 +1,5 @@
-//¹âÄê×ª»»ÌìÎÄµ¥Î»
-#include "head.h"
+//ï¿½ï¿½ï¿½ï¿½×ªï¿½ï¿½ï¿½ï¿½ï¿½Äµï¿½Î»
+#include "chapter_2_head.h"
 
 double light_years(double n)
 {
@@ -9,9 +9,9 @@ double light_years(double n)
 int L_Y_main()
 {
     double n;
-    cout << "ÊäÈë¹âÄê£º";
+    cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê£º";
     cin >> n;   
     cout << endl;
-    cout << n << " ¹âÄê = " << light_years(n) << " ÌìÎÄµ¥Î»" << endl;
+    cout << n << " ï¿½ï¿½ï¿½ï¿½ = " << light_years(n) << " ï¿½ï¿½ï¿½Äµï¿½Î»" << endl;
     return 0;
 }

@@ -1,15 +1,15 @@
-//Ê¹ÓÃÈ¡Óà²Ù×÷°Ñ°õ×ª»¯ÎªÓ¢Ê¯
-#include "head.h"
+//Ê¹ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ°ï¿½×ªï¿½ï¿½ÎªÓ¢Ê¯
+#include "chapter_3_head.h"
 
 int modulus()
 {
     const int Lbs_per_stn = 14;
     int lbs;
 
-    cout << "ÊäÈëÄãÌåÖØµÄ°õÊý£º";
+    cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ØµÄ°ï¿½ï¿½ï¿½ï¿½ï¿½";
     cin >> lbs;
     int stone = lbs / Lbs_per_stn;
     int pounds = lbs % Lbs_per_stn;
-    cout << lbs << " °õÊÇ " << stone << " Ó¢Ê¯ " << pounds << " °õ¡£\n";
+    cout << lbs << " ï¿½ï¿½ï¿½ï¿½ " << stone << " Ó¢Ê¯ " << pounds << " ï¿½ï¿½ï¿½ï¿½\n";
     return 0;
 }

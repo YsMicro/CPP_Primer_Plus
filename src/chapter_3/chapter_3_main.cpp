@@ -1,9 +1,9 @@
-#include "head.h"
+#include "chapter_3_head.h"
 
-int main()
+int chapter_3_main()
 {
     //cout << "Hello World!\n";
-    //limits();
+    // limits();
     //exceed();
     //hexoct1();
     //hexoct2();
@@ -21,7 +21,8 @@ int main()
     //bmi_main();
     //latitude();
     //sec_convert();
-    //population();
+    chapter_3_population();
     //oil();
     //oil_convert();
+    return 0;
 }

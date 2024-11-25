@@ -1,5 +1,5 @@
-//¸ãÇåÕûÐÍµÄÏÞÖÆ
-#include "head.h"
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Íµï¿½ï¿½ï¿½ï¿½ï¿½
+#include "chapter_3_head.h"
 #include <climits>
 
 int limits()
@@ -9,19 +9,19 @@ int limits()
     long n_long = LONG_MAX;
     long long n_llong = LLONG_MAX;
 
-    cout << "int ÐÍÓÐ " << sizeof(int) << " ×Ö½Ú" << endl;
-    cout << "short ÐÍÓÐ " << sizeof n_short << " ×Ö½Ú" << endl;
-    cout << "long ÐÍÓÐ " << sizeof n_long << " ×Ö½Ú" << endl;
-    cout << "long long ÐÍÓÐ " << sizeof n_llong << " ×Ö½Ú" << endl;
+    cout << "int ï¿½ï¿½ï¿½ï¿½ " << sizeof(int) << " ï¿½Ö½ï¿½" << endl;
+    cout << "short ï¿½ï¿½ï¿½ï¿½ " << sizeof n_short << " ï¿½Ö½ï¿½" << endl;
+    cout << "long ï¿½ï¿½ï¿½ï¿½ " << sizeof n_long << " ï¿½Ö½ï¿½" << endl;
+    cout << "long long ï¿½ï¿½ï¿½ï¿½ " << sizeof n_llong << " ï¿½Ö½ï¿½" << endl;
     cout << endl;
 
-    cout << "×î´óÖµ£º" << endl;
-    cout << "int£º" << n_int <<endl;
-    cout << "short£º" << n_short << endl;
-    cout << "long£º" << n_long << endl;
-    cout << "long long£º" << n_llong << endl << endl;
+    cout << "ï¿½ï¿½ï¿½Öµï¿½ï¿½" << endl;
+    cout << "intï¿½ï¿½" << n_int <<endl;
+    cout << "shortï¿½ï¿½" << n_short << endl;
+    cout << "longï¿½ï¿½" << n_long << endl;
+    cout << "long longï¿½ï¿½" << n_llong << endl << endl;
 
-    cout << "×îÐ¡ int Öµ = " << INT_MIN << endl;
-    cout << "Ã¿×Ö½ÚÓÐ " << CHAR_BIT << " Î»" << endl;
+    cout << "ï¿½ï¿½Ð¡ int Öµ = " << INT_MIN << endl;
+    cout << "Ã¿ï¿½Ö½ï¿½ï¿½ï¿½ " << CHAR_BIT << " Î»" << endl;
     return 0;
 }

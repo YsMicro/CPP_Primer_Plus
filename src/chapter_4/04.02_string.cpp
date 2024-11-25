@@ -1,15 +1,15 @@
-//ÔÚÊý×éÖÐ´æ´¢×Ö·û´®
-#include "head.h"
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð´æ´¢ï¿½Ö·ï¿½ï¿½ï¿½
+#include "chapter_4_head.h"
 #include <cstring>
 
 int strings()
 {
     const int SIZE = 15;
-    char name1[SIZE] = {0};//¿ÕÊý×é
-    char name2[SIZE] = "C++owboy";//³õÊ¼»¯Êý×é
+    char name1[SIZE] = {0};//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    char name2[SIZE] = "C++owboy";//ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
     cout << "Howdy! I'm " << name2;
-    cout << " £¡ What's your name?\n";
+    cout << " ï¿½ï¿½ What's your name?\n";
     cin >> name1;
     cout << "Well, " << name1 << " ,your name has ";
     cout << strlen(name1) << " letters and is stored\n";

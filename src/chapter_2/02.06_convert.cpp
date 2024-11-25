@@ -1,16 +1,16 @@
 #include <iostream>
-#include "head.h"
+#include "chapter_2_head.h"
 
 int stonetolb(int);
 
 int convert_main()
 {
     int stone;
-    cout << "ÊäÈëÓ¢Ê¯£º";
+    cout << "ï¿½ï¿½ï¿½ï¿½Ó¢Ê¯ï¿½ï¿½";
     cin >> stone;
     int pounds = stonetolb(stone);
     cout << stone << " Ó¢Ê¯ = ";
-    cout << pounds << " °õ¡£" << endl;
+    cout << pounds << " ï¿½ï¿½ï¿½ï¿½" << endl;
     return 0;
 }
 

@@ -1,5 +1,5 @@
 #include <iostream>
-#include "head.h"
+#include "chapter_2_head.h"
 
 void cout_1();
 void cout_2();

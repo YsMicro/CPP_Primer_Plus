@@ -1,6 +1,6 @@
-//ourfunc.cpp ¶¨Òå×Ô¼ºµÄº¯Êý
+//ourfunc.cpp ï¿½ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½Äºï¿½ï¿½ï¿½
 
-#include "head.h"
+#include "chapter_2_head.h"
 
 void simon(int);
 
@@ -17,6 +17,6 @@ int ourfunc_main()
 
 void simon(int n)
 {
-    cout << "Simon ËµÃþÄã½ÅÖº " << n << " ´Î¡£" << endl;
-    //void º¯Êý²»ÐèÒª return
+    cout << "Simon Ëµï¿½ï¿½ï¿½ï¿½ï¿½Öº " << n << " ï¿½Î¡ï¿½" << endl;
+    //void ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òª return
 }

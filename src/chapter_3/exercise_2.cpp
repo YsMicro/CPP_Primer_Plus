@@ -1,4 +1,4 @@
-#include "head.h"
+#include "chapter_3_head.h"
 
 double bmi_app(double weight, double height)
 {
@@ -15,16 +15,16 @@ int bmi_main()
     double inch = 0;
     double pounds = 0;
 
-    cout << "ÊäÈëÉí¸ß(Ó¢³ß)£º";
+    cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(Ó¢ï¿½ï¿½)ï¿½ï¿½";
     cin >> foot;
-    cout << endl << "ÊäÈëÉí¸ß(Ó¢´ç)£º";
+    cout << endl << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(Ó¢ï¿½ï¿½)ï¿½ï¿½";
     cin >> inch;
-    cout << endl << "ÊäÈëÌåÖØ(°õ)£º";
+    cout << endl << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½)ï¿½ï¿½";
     cin >> pounds;
 
     double height = (foot * Inch_per_foot + inch) * Meter_per_inch;
     double weight = pounds / Pounds_per_kg;
 
-    cout << endl << "ÄãµÄBMIÖ¸ÊýÎª£º" << bmi_app(weight, height) << endl;
+    cout << endl << "ï¿½ï¿½ï¿½BMIÖ¸ï¿½ï¿½Îªï¿½ï¿½" << bmi_app(weight, height) << endl;
     return 0;
 }

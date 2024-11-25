@@ -1,8 +1,8 @@
-//carrots.cpp Ê³Îï½ø³Ì³ÌÐò
-//Ê¹ÓÃºÍÏÔÊ¾Öµ
+//carrots.cpp Ê³ï¿½ï¿½ï¿½ï¿½Ì³ï¿½ï¿½ï¿½
+//Ê¹ï¿½Ãºï¿½ï¿½ï¿½Ê¾Öµ
 
 #include <iostream>
-#include "head.h"
+#include "chapter_2_head.h"
 
 
 int carrots()

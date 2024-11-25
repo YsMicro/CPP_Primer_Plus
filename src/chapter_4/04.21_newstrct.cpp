@@ -1,4 +1,4 @@
-#include "head.h"
+#include "chapter_4_head.h"
 
 struct inflatable
 {
@@ -10,14 +10,14 @@ struct inflatable
 int struct_main()
 {
     inflatable* ps = new inflatable;
-    cout << "ÊäÈë inflatable ÏîÄ¿µÄÃû×Ö£º";
+    cout << "ï¿½ï¿½ï¿½ï¿½ inflatable ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½ï¿½ï¿½Ö£ï¿½";
     cin.get(ps->name, 20);
-    cout << "ÊäÈëÌå»ý£¨Á¢·½Ó¢³ß£©£º";
+    cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¢ï¿½ß£ï¿½ï¿½ï¿½";
     cin >> (*ps).volume;
-    cout << "ÊäÈë¼Û¸ñ£º$";
+    cout << "ï¿½ï¿½ï¿½ï¿½Û¸ï¿½$";
     cin >> ps->price;
     cout << "Name: " << (*ps).name << endl;
-    cout << "Volume: " << ps->volume << " Á¢·½Ó¢³ß\n";
+    cout << "Volume: " << ps->volume << " ï¿½ï¿½ï¿½ï¿½Ó¢ï¿½ï¿½\n";
     cout << "Price: $" << ps->price << endl;
     delete ps;
     return 0;

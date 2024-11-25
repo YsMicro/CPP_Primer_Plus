@@ -1,18 +1,18 @@
-#include "head.h"
-//#include <cstring>
+#include "chapter_4_head.h"
+#include <cstring>
 int practice_3()
 {
     char first_name[20];
     char last_name[20];
     char full_name[50];
-    cout << "ÄãµÄFirst Name:";
+    cout << "ä½ çš„First Name:";
     cin.getline(first_name, 20);
-    cout << "ÄãµÄLast Name:";
+    cout << "ä½ çš„Last Name:";
     cin.getline(last_name, 20);
     strcpy_s(full_name, last_name);
     strcat_s(full_name, ", ");
     strcat_s(full_name, first_name);
-    cout << "ÔÚµ¥Ò»×Ö·û´®ÖÐÏÔÊ¾ÐÅÏ¢" << full_name << endl;
+    cout << "åœ¨å•ä¸€å­—ç¬¦ä¸²ä¸­æ˜¾ç¤ºä¿¡æ¯" << full_name << endl;
 
     return 0;
 }

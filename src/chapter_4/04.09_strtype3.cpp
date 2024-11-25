@@ -1,6 +1,6 @@
-#include "head.h"
+#include "chapter_4_head.h"
 #include <string>
-//#include <cstring>
+#include <cstring>
 
 int strtype3()
 {
@@ -9,21 +9,21 @@ int strtype3()
     string str1;
     string str2 = "panther";
 
-    //ÎªString¶ÔÏóºÍ×Ö·ûÊı×é·ÖÅä
+    //ä¸ºStringå¯¹è±¡å’Œå­—ç¬¦æ•°ç»„åˆ†é…
     str1 = str2;
     strcpy_s(charr1, charr2);
 
-    //ÎªString¶ÔÏóºÍ×Ö·ûÊı×é¸½¼Ó
+    //ä¸ºStringå¯¹è±¡å’Œå­—ç¬¦æ•°ç»„é™„åŠ 
     str1 += " paste";
     strcat_s(charr1, " juice");
 
-    //»ñÈ¡×Ö·û´®ºÍC·ç¸ñ×Ö·û´®µÄ³¤¶È
+    //è·å–å­—ç¬¦ä¸²å’ŒCé£æ ¼å­—ç¬¦ä¸²çš„é•¿åº¦
     int len1 = str1.size();
     int len2 = strlen(charr1);
 
-    cout << "×Ö·û´® " << str1 << " °üº¬ "
-        << len1 << " ¸ö×Ö·û¡£\n";
-    cout << "×Ö·û´® " << charr1 << " °üº¬ "
-        << len2 << " ¸ö×Ö·û¡£\n";
+    cout << "å­—ç¬¦ä¸² " << str1 << " åŒ…å« "
+        << len1 << " ä¸ªå­—ç¬¦ã€‚\n";
+    cout << "å­—ç¬¦ä¸² " << charr1 << " åŒ…å« "
+        << len2 << " ä¸ªå­—ç¬¦ã€‚\n";
     return 0;
 }

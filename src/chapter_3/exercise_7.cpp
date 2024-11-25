@@ -1,4 +1,4 @@
-#include "head.h"
+#include "chapter_3_head.h"
 
 int oil_convert()
 {
@@ -6,11 +6,11 @@ int oil_convert()
     const double Gallon2Litre = 3.875;
 
     double fuel_comsuption_en = 0.0;
-    cout << "ÊäÈëºÄÓÍÁ¿£¨Å·ÖÞ£©£º";
+    cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å·ï¿½Þ£ï¿½ï¿½ï¿½";
     cin >> fuel_comsuption_en;
 
     double fuel_comsuption_us = (100 * Km2Mile) / (fuel_comsuption_en / Gallon2Litre);
-    cout << "ºÄÓÍÁ¿£¨ÃÀ¹ú£©Îª" << fuel_comsuption_us
+    cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îª" << fuel_comsuption_us
         << " Miles/Gallon (mpg)." << endl;
 
     return 0;

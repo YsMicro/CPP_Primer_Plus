@@ -1,4 +1,4 @@
-#include "head.h"
+#include "chapter_3_head.h"
 
 int latitude()
 {
@@ -8,13 +8,13 @@ int latitude()
     double seconds = 0;
     double sum = 0;
 
-    cout << "ÊäÈëÎ³¶È£º\nÊ×ÏÈ£¬¶È£º";
+    cout << "ï¿½ï¿½ï¿½ï¿½Î³ï¿½È£ï¿½\nï¿½ï¿½ï¿½È£ï¿½ï¿½È£ï¿½";
     cin >> degrees;
-    cout << "È»ºó£¬·Ö£º";
+    cout << "È»ï¿½ó£¬·Ö£ï¿½";
     cin >> minutes;
-    cout << "×îºó£¬Ãë£º";
+    cout << "ï¿½ï¿½ï¿½ï¿½ë£º";
     cin >> seconds;
     sum = degrees + minutes / convert + seconds / convert / convert;
-    cout << degrees << " ¶È " << minutes << " ·Ö " << seconds << " Ãë = " << sum << " ¶È¡£" << endl;
+    cout << degrees << " ï¿½ï¿½ " << minutes << " ï¿½ï¿½ " << seconds << " ï¿½ï¿½ = " << sum << " ï¿½È¡ï¿½" << endl;
     return 0;
 }

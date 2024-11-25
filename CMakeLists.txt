@@ -51,8 +51,8 @@ add_executable(CPP_Primer_Plus main.cpp
         src/chapter_2/02.04_sqrt.cpp
         src/chapter_2/02.05_ourfunc.cpp
         src/chapter_2/02.06_convert.cpp
-        src/chapter_2/head.h
-        src/chapter_2/main.cpp
+        src/chapter_2/chapter_2_head.h
+        src/chapter_2/chapter_2_main.cpp
         src/chapter_2/Test_1.cpp
         src/chapter_2/Test_2.cpp
         src/chapter_2/Test_3.cpp
@@ -81,8 +81,8 @@ add_executable(CPP_Primer_Plus main.cpp
         src/chapter_3/exercise_5.cpp
         src/chapter_3/exercise_6.cpp
         src/chapter_3/exercise_7.cpp
-        src/chapter_3/head.h
-        src/chapter_3/main.cpp
+        src/chapter_3/chapter_3_head.h
+        src/chapter_3/chapter_3_main.cpp
         src/chapter_4/04.01_arrayone.cpp
         src/chapter_4/04.02_string.cpp
         src/chapter_4/04.03_instr1.cpp
@@ -107,8 +107,8 @@ add_executable(CPP_Primer_Plus main.cpp
         src/chapter_4/04.22_dalete.cpp
         src/chapter_4/04.23_mixtypes.cpp
         src/chapter_4/04.24_choices.cpp
-        src/chapter_4/head.h
-        src/chapter_4/main.cpp
+        src/chapter_4/chapter_4_head.h
+        src/chapter_4/chapter_4_main.cpp
         src/chapter_4/practice_1.cpp
         src/chapter_4/practice_2.cpp
         src/chapter_4/practice_3.cpp

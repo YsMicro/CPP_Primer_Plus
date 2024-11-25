@@ -1,17 +1,17 @@
-#include "head.h"
+#include "chapter_3_head.h"
 
 int oil()
 {
     double kilometer, oil_liter;
 
-    cout << "ÊäÈëÀï³ÌÊı£º";
+    cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½";
     cin >> kilometer;
 
-    cout << "ÊäÈëºÄÓÍÁ¿£º";
+    cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½";
     cin >> oil_liter;
 
     double kilometer_per_liter = kilometer / oil_liter;
-    cout << "Æ½¾ùºÄÓÍÁ¿Îª "
+    cout << "Æ½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îª "
         << 100 / kilometer_per_liter << " L/100km" << endl;
     return 0;
 }

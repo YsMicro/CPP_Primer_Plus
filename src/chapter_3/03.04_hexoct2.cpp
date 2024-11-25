@@ -1,16 +1,16 @@
-#include "head.h"
+#include "chapter_3_head.h"
 
 int hexoct2()
 {
-    int chest = 42;//十进制整型文字
-    int waist = 42;//十六进制整型文字
-    int inseam = 42;//八进制整型文字
+    int chest = 42;//十锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷
+    int waist = 42;//十锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷
+    int inseam = 42;//锟剿斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷
 
-    cout << "先生身材真不错！\n";
-    cout << "胸围 = " << chest << " (十进制的 42)" << endl;
-    cout << hex;//改变数字基础
-    cout << "胸围 = " << waist << " (十六进制的 42)" << endl;
+    cout << "锟斤拷锟斤拷锟斤拷锟斤拷锟芥不锟斤拷锟斤拷\n";
+    cout << "锟斤拷围 = " << chest << " (十锟斤拷锟狡碉拷 42)" << endl;
+    cout << hex;//锟侥憋拷锟斤拷锟街伙拷锟斤拷
+    cout << "锟斤拷围 = " << waist << " (十锟斤拷锟斤拷锟狡碉拷 42)" << endl;
     cout << oct;
-    cout << "胸围 = " << inseam << " (八进制的 42)" << endl;
+    cout << "锟斤拷围 = " << inseam << " (锟剿斤拷锟狡碉拷 42)" << endl;
     return 0;
 }

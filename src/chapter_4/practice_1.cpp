@@ -1,4 +1,4 @@
-#include "head.h"
+#include "chapter_4_head.h"
 
 int practice_1()
 {
@@ -6,13 +6,13 @@ int practice_1()
     char lName[40];
     char grade;
     int age;
-    cout << "ÄãµÄFirst name?";
+    cout << "ï¿½ï¿½ï¿½First name?";
     cin.getline(fName, 40);
-    cout << "ÄãµÄLast name?";
+    cout << "ï¿½ï¿½ï¿½Last name?";
     cin.getline(lName, 40);
-    cout << "ÄãÆÚÍûµÄµÈ¼¶?";
+    cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÄµÈ¼ï¿½?";
     cin >> grade;
-    cout << "ÄãµÄÄêÁä?";
+    cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½?";
     cin >> age;
     cout << "Name: " << lName << ", " << fName << endl;
     cout << "Grade: " << char(grade + 1) << endl;

@@ -1,11 +1,11 @@
 // Create by Shujia Huang on 2021-07-20
-#include "head.h"
+#include "chapter_3_head.h"
 
 int sec_convert()
 {
     long total_seconds;
 
-    cout << "ÊäÈëÃëÊý£º";
+    cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½";
     cin >> total_seconds;
 
     int days = total_seconds / 86400;
@@ -13,11 +13,11 @@ int sec_convert()
     int minutes = ((total_seconds % 86400) % 3600) / 60;
     int seconds = ((total_seconds % 86400) % 3600) % 60;
 
-    cout << total_seconds << " Ãë = "
-        << days << " Ìì "
+    cout << total_seconds << " ï¿½ï¿½ = "
+        << days << " ï¿½ï¿½ "
         << hours << " Ê± "
-        << minutes << " ·Ö "
-        << seconds << " Ãë¡£" << endl;
+        << minutes << " ï¿½ï¿½ "
+        << seconds << " ï¿½ë¡£" << endl;
 
     return 0;
 }

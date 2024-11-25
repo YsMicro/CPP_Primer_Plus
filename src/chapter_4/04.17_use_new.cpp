@@ -1,5 +1,5 @@
-//Ê¹ÓÃ new ÔËËã·û
-#include "head.h"
+//Ê¹ï¿½ï¿½ new ï¿½ï¿½ï¿½ï¿½ï¿½
+#include "chapter_4_head.h"
 
 int use_new()
 {

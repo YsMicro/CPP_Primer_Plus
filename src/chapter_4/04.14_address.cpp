@@ -1,5 +1,5 @@
-//Ê¹ÓÃ & ÔËËã·ûÑ°ÕÒµØÖ·
-#include "head.h"
+//Ê¹ï¿½ï¿½ & ï¿½ï¿½ï¿½ï¿½ï¿½Ñ°ï¿½Òµï¿½Ö·
+#include "chapter_4_head.h"
 
 int address()
 {

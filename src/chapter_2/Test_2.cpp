@@ -1,12 +1,12 @@
 #include <iostream>
-#include "head.h"
+#include "chapter_2_head.h"
 
 int long_convert()
 {
-    cout << "ÊäÈëlong£º\n";
+    cout << "ï¿½ï¿½ï¿½ï¿½longï¿½ï¿½\n";
     int longs;
     cin >> longs;
     int ma = 220*longs;
-    cout << longs << " long µÈÓÚ " << ma << " Âë¡£";
+    cout << longs << " long ï¿½ï¿½ï¿½ï¿½ " << ma << " ï¿½ë¡£";
     return 0;
 }
