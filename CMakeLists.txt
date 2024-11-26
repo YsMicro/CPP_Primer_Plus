@@ -60,27 +60,27 @@ add_executable(CPP_Primer_Plus main.cpp
         src/chapter_2/Practice/Test_5.cpp
         src/chapter_2/Practice/Test_6.cpp
         src/chapter_2/Practice/Test_7.cpp
-        src/chapter_3/03.01_limits.cpp
-        src/chapter_3/03.02_exceed.cpp
-        src/chapter_3/03.03_hexoct1.cpp
-        src/chapter_3/03.04_hexoct2.cpp
-        src/chapter_3/03.05_chartype.cpp
-        src/chapter_3/03.06_morechar.cpp
-        src/chapter_3/03.07_bondini.cpp
-        src/chapter_3/03.08_floatnum.cpp
-        src/chapter_3/03.09_fltadd.cpp
-        src/chapter_3/03.10_arith.cpp
-        src/chapter_3/03.11_divide.cpp
-        src/chapter_3/03.12_modulus.cpp
-        src/chapter_3/03.13_assign.cpp
-        src/chapter_3/03.14_typecast.cpp
-        src/chapter_3/exercise_1.cpp
-        src/chapter_3/exercise_2.cpp
-        src/chapter_3/exercise_3.cpp
-        src/chapter_3/exercise_4.cpp
-        src/chapter_3/exercise_5.cpp
-        src/chapter_3/exercise_6.cpp
-        src/chapter_3/exercise_7.cpp
+        src/chapter_3/Code/03.01_limits.cpp
+        src/chapter_3/Code/03.02_exceed.cpp
+        src/chapter_3/Code/03.03_hexoct1.cpp
+        src/chapter_3/Code/03.04_hexoct2.cpp
+        src/chapter_3/Code/03.05_chartype.cpp
+        src/chapter_3/Code/03.06_morechar.cpp
+        src/chapter_3/Code/03.07_bondini.cpp
+        src/chapter_3/Code/03.08_floatnum.cpp
+        src/chapter_3/Code/03.09_fltadd.cpp
+        src/chapter_3/Code/03.10_arith.cpp
+        src/chapter_3/Code/03.11_divide.cpp
+        src/chapter_3/Code/03.12_modulus.cpp
+        src/chapter_3/Code/03.13_assign.cpp
+        src/chapter_3/Code/03.14_typecast.cpp
+        src/chapter_3/Practice/exercise_1.cpp
+        src/chapter_3/Practice/exercise_2.cpp
+        src/chapter_3/Practice/exercise_3.cpp
+        src/chapter_3/Practice/exercise_4.cpp
+        src/chapter_3/Practice/exercise_5.cpp
+        src/chapter_3/Practice/exercise_6.cpp
+        src/chapter_3/Practice/exercise_7.cpp
         src/chapter_3/chapter_3_head.h
         src/chapter_3/chapter_3_main.cpp
         src/chapter_4/04.01_arrayone.cpp

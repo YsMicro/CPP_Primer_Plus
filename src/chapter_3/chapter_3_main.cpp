@@ -21,8 +21,8 @@ int chapter_3_main()
     //bmi_main();
     //latitude();
     //sec_convert();
-    chapter_3_population();
+    // chapter_3_population();
     //oil();
-    //oil_convert();
+    oil_convert();
     return 0;
 }
