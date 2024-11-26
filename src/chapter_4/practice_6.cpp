@@ -1,3 +1,5 @@
+#include <iostream>
+using namespace std;
 //#include "chapter_4_head.h"
 
 int practice_6()

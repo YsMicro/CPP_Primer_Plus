@@ -2,7 +2,8 @@
 #include <string>
 
 #include <iostream>
-using namespace std; practice_7()
+using namespace std;
+int practice_7()
 {
     struct Pizza
     {
