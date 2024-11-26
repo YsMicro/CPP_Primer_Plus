@@ -14,7 +14,7 @@ int practice_09() {
     string filename;
     getline(cin, filename);
 
-    filename = "..\\Practice\\" + filename;
+    filename = "..\\src\\chapter_6\\Practice\\" + filename;// “06_09_data.txt”对于“CPP_Primer_Plus.exe”的相对路径
     ifstream inFile;
     inFile.open(filename);
     if (!inFile.is_open()) {

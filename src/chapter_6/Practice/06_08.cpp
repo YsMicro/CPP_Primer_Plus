@@ -12,7 +12,7 @@
 
     cout << "请输入文件名：";
     getline(cin, filename);
-    filename = "..\\Practice\\" + filename;
+    filename = "..\\src\\chapter_6\\Practice\\" + filename;
     inFile.open(filename);
     if (!inFile.is_open()) {
         cout << "无法访问文件：" << filename << endl;

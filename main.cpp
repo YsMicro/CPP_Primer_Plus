@@ -5,9 +5,10 @@ int main()
 {
     std::cout << "Hello, CLion!" << std::endl;
     // chapter_2_main();
-    chapter_3_main();
+    // chapter_3_main();
     // chapter_4_main();
     // chapter_5_main();
+    chapter_6_main();
     // chapter_10_main();
     // chapter_11_main();
     // chapter_12_main();

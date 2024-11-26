@@ -83,62 +83,62 @@ add_executable(CPP_Primer_Plus main.cpp
         src/chapter_3/Practice/exercise_7.cpp
         src/chapter_3/chapter_3_head.h
         src/chapter_3/chapter_3_main.cpp
-        src/chapter_4/04.01_arrayone.cpp
-        src/chapter_4/04.02_string.cpp
-        src/chapter_4/04.03_instr1.cpp
-        src/chapter_4/04.04_instr2.cpp
-        src/chapter_4/04.05_instr3.cpp
-        src/chapter_4/04.06_numstr.cpp
-        src/chapter_4/04.07_strtype1.cpp
-        src/chapter_4/04.08_strtype2.cpp
-        src/chapter_4/04.09_strtype3.cpp
-        src/chapter_4/04.10_strtype4.cpp
-        src/chapter_4/04.11_structur.cpp
-        src/chapter_4/04.12_assgn_st.cpp
-        src/chapter_4/04.13_arrstruc.cpp
-        src/chapter_4/04.14_address.cpp
-        src/chapter_4/04.15_pointer.cpp
-        src/chapter_4/04.16_init_ptr.cpp
-        src/chapter_4/04.17_use_new.cpp
-        src/chapter_4/04.18_arraynew.cpp
-        src/chapter_4/04.19_addpntrs.cpp
-        src/chapter_4/04.20_ptrstr.cpp
-        src/chapter_4/04.21_newstrct.cpp
-        src/chapter_4/04.22_dalete.cpp
-        src/chapter_4/04.23_mixtypes.cpp
-        src/chapter_4/04.24_choices.cpp
+        src/chapter_4/Code/04.01_arrayone.cpp
+        src/chapter_4/Code/04.02_string.cpp
+        src/chapter_4/Code/04.03_instr1.cpp
+        src/chapter_4/Code/04.04_instr2.cpp
+        src/chapter_4/Code/04.05_instr3.cpp
+        src/chapter_4/Code/04.06_numstr.cpp
+        src/chapter_4/Code/04.07_strtype1.cpp
+        src/chapter_4/Code/04.08_strtype2.cpp
+        src/chapter_4/Code/04.09_strtype3.cpp
+        src/chapter_4/Code/04.10_strtype4.cpp
+        src/chapter_4/Code/04.11_structur.cpp
+        src/chapter_4/Code/04.12_assgn_st.cpp
+        src/chapter_4/Code/04.13_arrstruc.cpp
+        src/chapter_4/Code/04.14_address.cpp
+        src/chapter_4/Code/04.15_pointer.cpp
+        src/chapter_4/Code/04.16_init_ptr.cpp
+        src/chapter_4/Code/04.17_use_new.cpp
+        src/chapter_4/Code/04.18_arraynew.cpp
+        src/chapter_4/Code/04.19_addpntrs.cpp
+        src/chapter_4/Code/04.20_ptrstr.cpp
+        src/chapter_4/Code/04.21_newstrct.cpp
+        src/chapter_4/Code/04.22_dalete.cpp
+        src/chapter_4/Code/04.23_mixtypes.cpp
+        src/chapter_4/Code/04.24_choices.cpp
         src/chapter_4/chapter_4_head.h
         src/chapter_4/chapter_4_main.cpp
-        src/chapter_4/practice_1.cpp
-        src/chapter_4/practice_2.cpp
-        src/chapter_4/practice_3.cpp
-        src/chapter_4/practice_4.cpp
-        src/chapter_4/practice_5.cpp
-        src/chapter_4/practice_6.cpp
-        src/chapter_4/practice_7.cpp
-        src/chapter_4/practice_8.cpp
-        src/chapter_4/practice_9.cpp
-        src/chapter_4/practice_10.cpp
-        src/chapter_5/05.01_forloop.cpp
-        src/chapter_5/05.02_num_test.cpp
-        src/chapter_5/05.03_express.cpp
-        src/chapter_5/05.04_formore.cpp
-        src/chapter_5/05.05_bigstep.cpp
-        src/chapter_5/05.06_forstr1.cpp
-        src/chapter_5/05.07_plus_one.cpp
-        src/chapter_5/05.08_block.cpp
-        src/chapter_5/05.09_forstr2.cpp
-        src/chapter_5/05.10_equal.cpp
-        src/chapter_5/05.11_compstr1.cpp
-        src/chapter_5/05.12_compstr2.cpp
-        src/chapter_5/05.13_while.cpp
-        src/chapter_5/05.14_waiting.cpp
-        src/chapter_5/05.15_dowhile.cpp
-        src/chapter_5/05.16_textin1.cpp
-        src/chapter_5/05.17_textin2.cpp
-        src/chapter_5/05.18_textin3.cpp
-        src/chapter_5/05.19_textin4.cpp
-        src/chapter_5/05.20_nested.cpp
+        src/chapter_4/Practice/practice_1.cpp
+        src/chapter_4/Practice/practice_2.cpp
+        src/chapter_4/Practice/practice_3.cpp
+        src/chapter_4/Practice/practice_4.cpp
+        src/chapter_4/Practice/practice_5.cpp
+        src/chapter_4/Practice/practice_6.cpp
+        src/chapter_4/Practice/practice_7.cpp
+        src/chapter_4/Practice/practice_8.cpp
+        src/chapter_4/Practice/practice_9.cpp
+        src/chapter_4/Practice/practice_10.cpp
+        src/chapter_5/Code/05.01_forloop.cpp
+        src/chapter_5/Code/05.02_num_test.cpp
+        src/chapter_5/Code/05.03_express.cpp
+        src/chapter_5/Code/05.04_formore.cpp
+        src/chapter_5/Code/05.05_bigstep.cpp
+        src/chapter_5/Code/05.06_forstr1.cpp
+        src/chapter_5/Code/05.07_plus_one.cpp
+        src/chapter_5/Code/05.08_block.cpp
+        src/chapter_5/Code/05.09_forstr2.cpp
+        src/chapter_5/Code/05.10_equal.cpp
+        src/chapter_5/Code/05.11_compstr1.cpp
+        src/chapter_5/Code/05.12_compstr2.cpp
+        src/chapter_5/Code/05.13_while.cpp
+        src/chapter_5/Code/05.14_waiting.cpp
+        src/chapter_5/Code/05.15_dowhile.cpp
+        src/chapter_5/Code/05.16_textin1.cpp
+        src/chapter_5/Code/05.17_textin2.cpp
+        src/chapter_5/Code/05.18_textin3.cpp
+        src/chapter_5/Code/05.19_textin4.cpp
+        src/chapter_5/Code/05.20_nested.cpp
         src/chapter_5/chapter_5_head.h
         src/chapter_5/chapter_5_main.cpp
         src/chapter_5/Practice/05.01.cpp
@@ -151,5 +151,32 @@ add_executable(CPP_Primer_Plus main.cpp
         src/chapter_5/Practice/05.08.cpp
         src/chapter_5/Practice/05.09.cpp
         src/chapter_5/Practice/05.10.cpp
+        src/chapter_6/chapter_6_head.h
+        src/chapter_6/chapter_6_main.cpp
+        src/chapter_6/Code/06_01_if.cpp
+        src/chapter_6/Code/06_02_ifelse.cpp
+        src/chapter_6/Code/06_03_ifelseif.cpp
+        src/chapter_6/Code/06_04_or.cpp
+        src/chapter_6/Code/06_05_and.cpp
+        src/chapter_6/Code/06_06_more_and.cpp
+        src/chapter_6/Code/06_07_not.cpp
+        src/chapter_6/Code/06_08_cctypes.cpp
+        src/chapter_6/Code/06_09_condit.cpp
+        src/chapter_6/Code/06_10_switch.cpp
+        src/chapter_6/Code/06_11_enum.cpp
+        src/chapter_6/Code/06_12_jump.cpp
+        src/chapter_6/Code/06_13_cinFish.cpp
+        src/chapter_6/Code/06_14_cinGolf.cpp
+        src/chapter_6/Code/06_15_outFile.cpp
+        src/chapter_6/Code/06_16_sumFile.cpp
+        src/chapter_6/Practice/06_01.cpp
+        src/chapter_6/Practice/06_02.cpp
+        src/chapter_6/Practice/06_03.cpp
+        src/chapter_6/Practice/06_04.cpp
+        src/chapter_6/Practice/06_05.cpp
+        src/chapter_6/Practice/06_06.cpp
+        src/chapter_6/Practice/06_07.cpp
+        src/chapter_6/Practice/06_08.cpp
+        src/chapter_6/Practice/06_09.cpp
 
 )

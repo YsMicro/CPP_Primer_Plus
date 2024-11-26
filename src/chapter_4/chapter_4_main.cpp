@@ -4,7 +4,7 @@
 
 int chapter_4_main()
 {
-    //arrayone();
+    arrayone();
     //strings();
     //instr1();
     //instr2();
