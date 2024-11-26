@@ -18,7 +18,7 @@ int chapter_4_main()
     //assgn_st();
     //arrstruc();
     //address();
-    //pointer();
+    // pointer();
     //init_ptr();
     //use_new();
     //arraynew();
@@ -105,6 +105,6 @@ int chapter_4_main()
     //practice_7();
     //practice_8();
     //practice_9();
-    practice_10();
+    // practice_10();
     return 0;
 }
