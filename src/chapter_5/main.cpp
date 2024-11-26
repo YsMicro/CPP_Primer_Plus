@@ -1,7 +1,7 @@
 #include <iostream>
 #include "head.h"
 
-int main() {
+int chapter_5_main() {
     setbuf(stdout, nullptr);
     std::cout << "Hello, CLion!" << std::endl;
     using namespace std;

@@ -106,9 +106,5 @@ int chapter_4_main()
     //practice_8();
     //practice_9();
     practice_10();
-    cout << "001" << "\n";
-    cout << "002" << "\n";
-    cout << "003" << endl;
-    cout << "004" << endl;
     return 0;
 }
