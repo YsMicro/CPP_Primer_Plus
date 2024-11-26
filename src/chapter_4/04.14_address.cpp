@@ -1,6 +1,8 @@
 //ʹ�� & �����Ѱ�ҵ�ַ
 //#include "chapter_4_head.h"
 
+#include <iostream>
+using namespace std;
 int address()
 {
     int donuts = 6;

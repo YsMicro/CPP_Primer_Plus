@@ -1,5 +1,7 @@
 //#include "chapter_4_head.h"
 
+#include <iostream>
+using namespace std;
 int pointer()
 {
     int updates = 6;

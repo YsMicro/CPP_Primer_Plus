@@ -1,6 +1,7 @@
 //#include "chapter_4_head.h"
 #include <string>
-
+#include <iostream>
+using namespace std;
 int practice_2()
 {
     const int ARSIZE = 20;

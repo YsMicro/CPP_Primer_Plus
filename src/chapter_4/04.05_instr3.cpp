@@ -1,5 +1,7 @@
 //#include "chapter_4_head.h"
 
+#include <iostream>
+using namespace std;
 int instr3()
 {
     const int ARSIZE = 20;

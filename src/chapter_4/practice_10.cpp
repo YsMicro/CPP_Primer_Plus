@@ -1,6 +1,7 @@
 //#include "chapter_4_head.h"
 #include <array>
-
+#include <iostream>
+using namespace std;
 int practice_10()
 {
     array<double, 3> result;

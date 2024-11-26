@@ -1,6 +1,8 @@
 //����С����
 //#include "chapter_4_head.h"
 
+#include <iostream>
+using namespace std;
 int arrayone()
 {
     int yams[3] = {0};//��������Ԫ�ص�����

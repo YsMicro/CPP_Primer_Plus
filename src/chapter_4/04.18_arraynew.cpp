@@ -1,5 +1,7 @@
 //#include "chapter_4_head.h"
 
+#include <iostream>
+using namespace std;
 int arraynew()
 {
     double* p3 = new double[3];

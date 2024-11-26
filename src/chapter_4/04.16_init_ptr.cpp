@@ -1,5 +1,7 @@
 //#include "chapter_4_head.h"
 
+#include <iostream>
+using namespace std;
 int init_ptr()
 {
     int higgens = 5;

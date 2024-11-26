@@ -4,6 +4,8 @@
 
 char* getname(void);
 
+#include <iostream>
+using namespace std;
 int delete_main()
 {
     char* name;

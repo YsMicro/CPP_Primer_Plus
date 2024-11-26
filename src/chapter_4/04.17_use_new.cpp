@@ -1,6 +1,8 @@
 //ʹ�� new �����
 //#include "chapter_4_head.h"
 
+#include <iostream>
+using namespace std;
 int use_new()
 {
     int nights = 1001;

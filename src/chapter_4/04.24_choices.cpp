@@ -2,6 +2,8 @@
 #include <vector>
 #include <array>
 
+#include <iostream>
+using namespace std;
 int choices()
 {
     using namespace std;

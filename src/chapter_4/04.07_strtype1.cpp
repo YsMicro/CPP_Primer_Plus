@@ -2,6 +2,8 @@
 //#include "chapter_4_head.h"
 #include <string>
 
+#include <iostream>
+using namespace std;
 int strtype1()
 {
     char charr1[20];

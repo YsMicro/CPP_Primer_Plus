@@ -2,6 +2,8 @@
 #include <string>
 #include <cstring>
 
+#include <iostream>
+using namespace std;
 int strtype4()
 {
     char charr[20];

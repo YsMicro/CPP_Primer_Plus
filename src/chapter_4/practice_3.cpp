@@ -1,5 +1,7 @@
 //#include "chapter_4_head.h"
 #include <cstring>
+#include <iostream>
+using namespace std;
 int practice_3()
 {
     char first_name[20];

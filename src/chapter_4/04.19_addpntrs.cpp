@@ -1,5 +1,7 @@
 //#include "chapter_4_head.h"
 
+#include <iostream>
+using namespace std;
 int addpntrs()
 {
     double wages[3] = { 10000.0, 20000.0, 30000.0 };

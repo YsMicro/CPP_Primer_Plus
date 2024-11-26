@@ -6,6 +6,8 @@ struct antarctica_years_end
     //�Լ�����һЩ����
 };
 
+#include <iostream>
+using namespace std;
 int mixtypes()
 {
     antarctica_years_end s01, s02, s03;

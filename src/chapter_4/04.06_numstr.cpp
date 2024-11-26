@@ -1,5 +1,7 @@
 //#include "chapter_4_head.h"
 
+#include <iostream>
+using namespace std;
 int numstr()
 {
     cout << "�㷿��������ģ�\n";

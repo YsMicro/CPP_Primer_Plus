@@ -1,5 +1,6 @@
 //#include "chapter_4_head.h"
-
+#include <iostream>
+using namespace std;
 struct inflatable
 {
     char name[20];

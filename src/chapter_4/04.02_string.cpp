@@ -2,6 +2,8 @@
 //#include "chapter_4_head.h"
 #include <cstring>
 
+#include <iostream>
+using namespace std;
 int strings()
 {
     const int SIZE = 15;

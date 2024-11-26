@@ -1,7 +1,8 @@
 //#include "chapter_4_head.h"
 #include <string>
 
-int practice_7()
+#include <iostream>
+using namespace std; practice_7()
 {
     struct Pizza
     {

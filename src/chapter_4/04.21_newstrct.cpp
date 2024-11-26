@@ -7,6 +7,8 @@ struct inflatable
     double price;
 };
 
+#include <iostream>
+using namespace std;
 int struct_main()
 {
     inflatable* ps = new inflatable;

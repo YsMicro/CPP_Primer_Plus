@@ -1,5 +1,6 @@
 //#include "chapter_4_head.h"
-
+#include <iostream>
+using namespace std;
 int practice_1()
 {
     char fName[40];

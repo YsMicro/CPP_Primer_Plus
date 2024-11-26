@@ -1,6 +1,7 @@
 //#include "chapter_4_head.h"
 #include <string>
-
+#include <iostream>
+using namespace std;
 int strtype2()
 {
     string s1 = "penguin";
