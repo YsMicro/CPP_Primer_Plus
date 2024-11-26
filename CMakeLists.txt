@@ -45,21 +45,21 @@ add_executable(CPP_Primer_Plus main.cpp
         src/chapter_13/tab_tenn1.cpp
         src/chapter_13/tab_tenn1.h
         src/chapter_13/use_tt1.cpp
-        src/chapter_2/02.01_myfirst.cpp
-        src/chapter_2/02.02_carrots.cpp
-        src/chapter_2/02.03_getinfo.cpp
-        src/chapter_2/02.04_sqrt.cpp
-        src/chapter_2/02.05_ourfunc.cpp
-        src/chapter_2/02.06_convert.cpp
+        src/chapter_2/code/02.01_myfirst.cpp
+        src/chapter_2/code/02.02_carrots.cpp
+        src/chapter_2/code/02.03_getinfo.cpp
+        src/chapter_2/code/02.04_sqrt.cpp
+        src/chapter_2/code/02.05_ourfunc.cpp
+        src/chapter_2/code/02.06_convert.cpp
         src/chapter_2/chapter_2_head.h
         src/chapter_2/chapter_2_main.cpp
-        src/chapter_2/Test_1.cpp
-        src/chapter_2/Test_2.cpp
-        src/chapter_2/Test_3.cpp
-        src/chapter_2/Test_4.cpp
-        src/chapter_2/Test_5.cpp
-        src/chapter_2/Test_6.cpp
-        src/chapter_2/Test_7.cpp
+        src/chapter_2/Practice/Test_1.cpp
+        src/chapter_2/Practice/Test_2.cpp
+        src/chapter_2/Practice/Test_3.cpp
+        src/chapter_2/Practice/Test_4.cpp
+        src/chapter_2/Practice/Test_5.cpp
+        src/chapter_2/Practice/Test_6.cpp
+        src/chapter_2/Practice/Test_7.cpp
         src/chapter_3/03.01_limits.cpp
         src/chapter_3/03.02_exceed.cpp
         src/chapter_3/03.03_hexoct1.cpp
