@@ -1,6 +1,7 @@
 // Create by Shujia Huang on 2021-07-20
-#include "chapter_3_head.h"
-
+//#include "chapter_3_head.h"
+#include <iostream>
+using namespace std;
 int sec_convert()
 {
     long total_seconds;

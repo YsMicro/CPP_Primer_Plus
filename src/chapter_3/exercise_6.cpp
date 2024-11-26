@@ -1,5 +1,6 @@
-#include "chapter_3_head.h"
-
+//#include "chapter_3_head.h"
+#include <iostream>
+using namespace std;
 int oil()
 {
     double kilometer, oil_liter;

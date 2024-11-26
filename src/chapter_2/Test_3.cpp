@@ -1,6 +1,6 @@
 #include <iostream>
-#include "chapter_2_head.h"
-
+//#include "chapter_2_head.h"
+using namespace std;
 void cout_1();
 void cout_2();
 

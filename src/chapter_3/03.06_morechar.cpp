@@ -1,6 +1,7 @@
 //char����int�ͶԱ�
-#include "chapter_3_head.h"
-
+//#include "chapter_3_head.h"
+#include <iostream>
+using namespace std;
 int morechar()
 {
     char ch = 'M';

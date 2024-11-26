@@ -1,7 +1,8 @@
 //ourfunc.cpp �����Լ��ĺ���
 
-#include "chapter_2_head.h"
-
+//#include "chapter_2_head.h"
+#include <iostream>
+using namespace std;
 void simon(int);
 
 int ourfunc_main()

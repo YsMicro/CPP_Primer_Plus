@@ -1,5 +1,5 @@
 //ʹ��C++String��
-#include "chapter_4_head.h"
+//#include "chapter_4_head.h"
 #include <string>
 
 int strtype1()

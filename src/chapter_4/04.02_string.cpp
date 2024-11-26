@@ -1,5 +1,5 @@
 //�������д洢�ַ���
-#include "chapter_4_head.h"
+//#include "chapter_4_head.h"
 #include <cstring>
 
 int strings()

@@ -1,7 +1,7 @@
 //
 // Created by Vojago on 2024/3/18.
 //
-#include "head.h"
+//#include "chapter_5_head.h"
 #include <iostream>
 int equal()
 {

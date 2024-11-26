@@ -1,7 +1,8 @@
 //�������͵�����
-#include "chapter_3_head.h"
+//#include "chapter_3_head.h"
 #include <climits>
-
+#include <iostream>
+using namespace std;
 int limits()
 {
     int n_int = INT_MAX;

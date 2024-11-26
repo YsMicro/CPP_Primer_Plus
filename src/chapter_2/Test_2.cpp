@@ -1,8 +1,9 @@
 #include <iostream>
-#include "chapter_2_head.h"
+//#include "chapter_2_head.h"
 
 int long_convert()
 {
+    using namespace std;
     cout << "����long��\n";
     int longs;
     cin >> longs;

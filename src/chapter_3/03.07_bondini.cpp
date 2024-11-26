@@ -1,5 +1,6 @@
-#include "chapter_3_head.h"
-
+//#include "chapter_3_head.h"
+#include <iostream>
+using namespace std;
 int bondini()
 {
     cout << "\aOperation \"HyperHype\" is now activated!\n";

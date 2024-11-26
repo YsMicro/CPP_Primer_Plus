@@ -1,5 +1,6 @@
-#include "chapter_3_head.h"
-
+//#include "chapter_3_head.h"
+#include <iostream>
+using namespace std;
 int oil_convert()
 {
     const double Km2Mile = 0.6214;

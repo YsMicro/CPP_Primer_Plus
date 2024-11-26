@@ -18,5 +18,6 @@ int chapter_2_main();
 int chapter_3_main();
 
 int chapter_4_main();
+int chapter_5_main();
 
 #endif //CPP_PRIMER_PLUS_HEAD_H

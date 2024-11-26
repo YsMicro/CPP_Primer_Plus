@@ -1,8 +1,9 @@
 //�����������
-#include "chapter_3_head.h"
+//#include "chapter_3_head.h"
 #define ZERO 0
 #include <climits>
-
+#include <iostream>
+using namespace std;
 int exceed()
 {
     short sam = SHRT_MAX;

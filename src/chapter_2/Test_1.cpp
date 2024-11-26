@@ -1,11 +1,12 @@
 //myname.cpp ��������͵�ַ
 
 #include <iostream>
-#include "chapter_2_head.h"
-
+//#include "chapter_2_head.h"
+#include <string>
 int myname()
 {
-    string name = "��ΰ��";
+    using namespace std;
+    std::string name = "��ΰ��";
     string address = "����ʡ����������������·����ѧԺ";
     cout << name << endl;
     cout << address << endl;

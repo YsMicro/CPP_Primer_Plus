@@ -1,10 +1,11 @@
 //getinfo.cpp ���������
 
 #include <iostream>
-#include "chapter_2_head.h"
+//#include "chapter_2_head.h"
 
 int getinfo()
 {
+    using namespace std;
     int carrots;
     cout << "���ж���carrots?" << endl;
     cin >> carrots;

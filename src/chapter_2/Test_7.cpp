@@ -1,6 +1,7 @@
 //��ʾʱ��
-#include "chapter_2_head.h"
-
+//#include "chapter_2_head.h"
+#include <iostream>
+using namespace std;
 void time(int h, int m)
 {
     cout << endl << "ʱ�䣺" << h << ":" << m << endl;

@@ -1,8 +1,9 @@
 #include <iostream>
-#include "chapter_2_head.h"
+//#include "chapter_2_head.h"
 
 int year_month() 
 {
+    using namespace std;
     int years, months;
     cout << "Enter your age: ";
     cin >> years;

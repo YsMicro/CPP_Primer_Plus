@@ -119,5 +119,37 @@ add_executable(CPP_Primer_Plus main.cpp
         src/chapter_4/practice_8.cpp
         src/chapter_4/practice_9.cpp
         src/chapter_4/practice_10.cpp
+        src/chapter_5/05.01_forloop.cpp
+        src/chapter_5/05.02_num_test.cpp
+        src/chapter_5/05.03_express.cpp
+        src/chapter_5/05.04_formore.cpp
+        src/chapter_5/05.05_bigstep.cpp
+        src/chapter_5/05.06_forstr1.cpp
+        src/chapter_5/05.07_plus_one.cpp
+        src/chapter_5/05.08_block.cpp
+        src/chapter_5/05.09_forstr2.cpp
+        src/chapter_5/05.10_equal.cpp
+        src/chapter_5/05.11_compstr1.cpp
+        src/chapter_5/05.12_compstr2.cpp
+        src/chapter_5/05.13_while.cpp
+        src/chapter_5/05.14_waiting.cpp
+        src/chapter_5/05.15_dowhile.cpp
+        src/chapter_5/05.16_textin1.cpp
+        src/chapter_5/05.17_textin2.cpp
+        src/chapter_5/05.18_textin3.cpp
+        src/chapter_5/05.19_textin4.cpp
+        src/chapter_5/05.20_nested.cpp
+        src/chapter_5/chapter_5_head.h
+        src/chapter_5/chapter_5_main.cpp
+        src/chapter_5/Practice/05.01.cpp
+        src/chapter_5/Practice/05.02.cpp
+        src/chapter_5/Practice/05.03.cpp
+        src/chapter_5/Practice/05.04.cpp
+        src/chapter_5/Practice/05.05.cpp
+        src/chapter_5/Practice/05.06.cpp
+        src/chapter_5/Practice/05.07.cpp
+        src/chapter_5/Practice/05.08.cpp
+        src/chapter_5/Practice/05.09.cpp
+        src/chapter_5/Practice/05.10.cpp
 
 )

@@ -1,6 +1,7 @@
 //ʹ��ȡ������Ѱ�ת��ΪӢʯ
-#include "chapter_3_head.h"
-
+//#include "chapter_3_head.h"
+#include <iostream>
+using namespace std;
 int modulus()
 {
     const int Lbs_per_stn = 14;

@@ -3,7 +3,7 @@
 //
 
 #include <iostream>
-#include "head.h"
+//#include "chapter_5_head.h"
 
 const int ARSIZE = 16;
 int formore()

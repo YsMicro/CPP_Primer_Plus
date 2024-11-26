@@ -1,6 +1,7 @@
 //C++�㷨
-#include "chapter_3_head.h"
-
+//#include "chapter_3_head.h"
+#include <iostream>
+using namespace std;
 int arith()
 {
     float hats, heads;

@@ -2,11 +2,12 @@
 //ʹ�ú���ʾֵ
 
 #include <iostream>
-#include "chapter_2_head.h"
+//#include "chapter_2_head.h"
 
 
 int carrots()
 {
+    using namespace std;
     int carrots;
 
     carrots = 25;

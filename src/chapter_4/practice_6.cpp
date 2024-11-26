@@ -1,4 +1,4 @@
-#include "chapter_4_head.h"
+//#include "chapter_4_head.h"
 
 int practice_6()
 {

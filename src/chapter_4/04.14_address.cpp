@@ -1,5 +1,5 @@
 //ʹ�� & �����Ѱ�ҵ�ַ
-#include "chapter_4_head.h"
+//#include "chapter_4_head.h"
 
 int address()
 {

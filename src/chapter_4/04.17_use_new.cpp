@@ -1,5 +1,5 @@
 //ʹ�� new �����
-#include "chapter_4_head.h"
+//#include "chapter_4_head.h"
 
 int use_new()
 {

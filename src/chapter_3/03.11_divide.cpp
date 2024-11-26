@@ -1,6 +1,7 @@
 //�����͸������
-#include "chapter_3_head.h"
-
+//#include "chapter_3_head.h"
+#include <iostream>
+using namespace std;
 int divide()
 {
     cout.setf(ios_base::fixed, ios_base::floatfield);

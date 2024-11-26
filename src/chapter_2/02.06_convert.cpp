@@ -1,10 +1,11 @@
 #include <iostream>
-#include "chapter_2_head.h"
+//#include "chapter_2_head.h"
 
 int stonetolb(int);
 
 int convert_main()
 {
+    using namespace std;
     int stone;
     cout << "����Ӣʯ��";
     cin >> stone;

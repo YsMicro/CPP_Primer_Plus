@@ -1,8 +1,9 @@
 #include <cmath>
-#include "chapter_2_head.h"
-
+//#include "chapter_2_head.h"
+#include <iostream>
 int sqrt()
 {
+    using namespace std;
     double area;
     cout << "����סլ�Ľ������(��ƽ��Ӣ��Ϊ��λ)��";
     cin >> area;

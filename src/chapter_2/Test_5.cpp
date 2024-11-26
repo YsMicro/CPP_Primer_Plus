@@ -1,8 +1,9 @@
 //���϶�ת�����϶�
-#include "chapter_2_head.h"
-
+//#include "chapter_2_head.h"
+#include <iostream>
 void temperature()
 {
+    using namespace std;
     double t;
     cout << "�������϶ȣ�";
     cin >> t;
