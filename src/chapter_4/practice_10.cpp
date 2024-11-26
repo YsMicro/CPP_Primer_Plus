@@ -10,9 +10,8 @@ int practice_10()
     cin >> result[1];
     cout << "The last time: ";
     cin >> result[2];
-    double avg_result = (result[0] + result[1] + result[2]) / 3;
     cout << "The three results are as follows: " << result[0] << ", "
         << result[1] << ", " << result[2] << endl;
-    cout << "The average score is: " << avg_result << endl;
+    cout << "The average score is: " << (result[0] + result[1] + result[2]) / 3 << endl;
     return 0;
 }
