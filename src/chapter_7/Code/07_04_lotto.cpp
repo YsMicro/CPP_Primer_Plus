@@ -5,7 +5,7 @@
 
 long double probability(unsigned numbers, unsigned picks);
 
-[[maybe_unused]] int code_04() {
+[[maybe_unused]] int code_04_lotto() {
     using namespace std;
     double total, choices;
     cout << "输入游戏中选择的总数\n"

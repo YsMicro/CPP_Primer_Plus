@@ -178,5 +178,15 @@ add_executable(CPP_Primer_Plus main.cpp
         src/chapter_6/Practice/06_07.cpp
         src/chapter_6/Practice/06_08.cpp
         src/chapter_6/Practice/06_09.cpp
+        src/chapter_7/Code/07_01_calling.cpp
+        src/chapter_7/Code/07_02_protos.cpp
+        src/chapter_7/Code/07_03_twoArg.cpp
+        src/chapter_7/Code/07_04_lotto.cpp
+        src/chapter_7/Code/07_05_arrFun_1.cpp
+        src/chapter_7/Code/07_06_arrFun_2.cpp
+        src/chapter_7/Code/07_07_arrFun_3.cpp
+        src/chapter_7/Code/07_08_arrFun_4.cpp
+        src/chapter_7/chapter_7_head.h
+        src/chapter_7/chapter_7_main.cpp
 
 )

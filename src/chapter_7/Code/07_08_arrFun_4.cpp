@@ -7,7 +7,7 @@ const int SIZE = 8;
 
 int sumArr(const int *begin, const int *end);
 
-[[maybe_unused]] int code_08() {
+[[maybe_unused]] int code_08_arrFun_4() {
     using namespace std;
     int cookies[SIZE] = {1, 2, 4, 8, 16, 32, 64, 128};
     int sum = sumArr(cookies, cookies + SIZE);

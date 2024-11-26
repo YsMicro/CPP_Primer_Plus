@@ -7,7 +7,7 @@ using namespace std;
 
 void n_chars(char, int);
 
-[[maybe_unused]] int code_03() {
+[[maybe_unused]] int code_03_twoArg() {
     int times;
     char ch;
 

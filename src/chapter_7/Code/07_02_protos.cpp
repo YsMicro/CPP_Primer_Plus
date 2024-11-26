@@ -7,7 +7,7 @@ void cheers(int);
 
 double cube(double x);
 
-[[maybe_unused]] int code_02() {
+[[maybe_unused]] int code_02_protos() {
     using namespace std;
     cheers(5);
     cout << "给我一个数：";

@@ -5,7 +5,7 @@
 
 void simple();//函数原型
 
-[[maybe_unused]] int code_01() {
+[[maybe_unused]] int code_01_calling() {
     using namespace std;
     cout << "code_01() 将调用 simple() 函数:\n";
     simple();

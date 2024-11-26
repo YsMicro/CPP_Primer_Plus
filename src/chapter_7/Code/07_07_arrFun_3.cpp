@@ -11,7 +11,7 @@ void showArray(const double arr[], int n);
 
 void revalue(double r, double arr[], int n);
 
-[[maybe_unused]] int code_07() {
+[[maybe_unused]] int code_07_arrFun_3() {
     using namespace std;
     double properties[MAX];
 
