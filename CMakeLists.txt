@@ -193,5 +193,11 @@ add_executable(CPP_Primer_Plus main.cpp
         src/chapter_8/Code/08_01_inline.cpp
         src/chapter_8/Code/08_09_left.cpp
         src/chapter_8/Code/08_10_leftOver.cpp
+        src/chapter_10/Code/1001_stock00.h
+        src/chapter_10/Code/1002_stock00.cpp
+        src/chapter_10/Code/1003_useStock0.cpp
+        src/chapter_10/Code/1004_stock10.h
+        src/chapter_10/Code/1005_stock10.cpp
+        src/chapter_10/Code/1006_useStock1.cpp
 
 )
