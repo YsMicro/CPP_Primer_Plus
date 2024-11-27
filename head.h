@@ -16,6 +16,8 @@ int chapter_6_main();
 
 int chapter_7_main();
 
+int chapter_8_main();
+
 int chapter_10_main();
 
 int chapter_11_main();

@@ -7,9 +7,9 @@ add_executable(CPP_Primer_Plus main.cpp
         head.h
         src/chapter_12/chapter_12_main.cpp
         src/chapter_12/chapter_12_head.h
-        src/chapter_12/string_bad.h
-        src/chapter_12/string_bad.cpp
-        src/chapter_12/vegNews.cpp
+        src/chapter_12/Code/string_bad.h
+        src/chapter_12/Code/string_bad.cpp
+        src/chapter_12/Code/vegNews.cpp
         src/chapter_10/chapter_10_main.cpp
         src/chapter_10/chapter_10_head.h
         src/chapter_10/stock20.cpp
@@ -35,11 +35,11 @@ add_executable(CPP_Primer_Plus main.cpp
         src/chapter_11/stoneWT.h
         src/chapter_11/stoneWT.cpp
         src/chapter_11/stone.cpp
-        src/chapter_12/sayings1.cpp
-        src/chapter_12/sayings2.cpp
-        src/chapter_12/string1.cpp
-        src/chapter_12/string_NOT_bad.cpp
-        src/chapter_12/string_NOT_bad.h
+        src/chapter_12/Code/sayings1.cpp
+        src/chapter_12/Code/sayings2.cpp
+        src/chapter_12/Code/string1.cpp
+        src/chapter_12/Code/string_NOT_bad.cpp
+        src/chapter_12/Code/string_NOT_bad.h
         src/chapter_13/chapter_13_head.h
         src/chapter_13/chapter_13_main.cpp
         src/chapter_13/tab_tenn1.cpp
@@ -188,5 +188,10 @@ add_executable(CPP_Primer_Plus main.cpp
         src/chapter_7/Code/07_08_arrFun_4.cpp
         src/chapter_7/chapter_7_head.h
         src/chapter_7/chapter_7_main.cpp
+        src/chapter_8/chapter_8_head.h
+        src/chapter_8/chapter_8_main.cpp
+        src/chapter_8/Code/08_01_inline.cpp
+        src/chapter_8/Code/08_09_left.cpp
+        src/chapter_8/Code/08_10_leftOver.cpp
 
 )
