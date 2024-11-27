@@ -3,8 +3,8 @@
 int chapter_2_main()
 {
     // code_0201_my_first();
-    code_0202_carrots();
-    //getinfo();
+    // code_0202_carrots();
+    code_0203_getinfo();
     //sqrt();
     //ourfunc_main();   
     //convert_main();

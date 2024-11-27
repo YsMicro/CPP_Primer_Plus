@@ -1,17 +1,13 @@
-//getinfo.cpp ���������
-
 #include <iostream>
-//#include "chapter_2_head.h"
 
-int getinfo()
+int code_0203_getinfo()
 {
     using namespace std;
     int carrots;
-    cout << "���ж���carrots?" << endl;
+    cout << "How many carrots do you have?" << endl;
     cin >> carrots;
-    cout << "��������.";
+    cout << "Here are two more.";
     carrots = carrots + 2;
-    //��һ���������
-    cout << "������ " << carrots << " carrots." << endl;
+    cout << "Now you have " << carrots << " carrots." << endl;
     return 0;
 }

@@ -3,7 +3,7 @@
 int code_0202_carrots()
 {
     using namespace std;
-    int carrots = 25;
+    int carrots = 25;//胡萝卜
     cout << "I have ";
     cout << carrots;
     cout << " carrots.";
