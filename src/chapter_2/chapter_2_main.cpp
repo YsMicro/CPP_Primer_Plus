@@ -2,7 +2,7 @@
 
 int chapter_2_main()
 {
-    myfirst();
+    code_0201_my_first();
     //carrots();
     //getinfo();
     //sqrt();

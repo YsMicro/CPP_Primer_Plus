@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-int myfirst();
+int code_0201_my_first();
 int carrots();
 int getinfo();
 int sqrt();
