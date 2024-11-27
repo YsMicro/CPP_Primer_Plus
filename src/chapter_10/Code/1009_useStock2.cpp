@@ -2,7 +2,7 @@
 // Created by Vojago on 2024/9/18.
 //
 #include <iostream>
-#include "stock20.h"
+#include "1007_stock20.h"
 
 const int STOCKS = 4;
 

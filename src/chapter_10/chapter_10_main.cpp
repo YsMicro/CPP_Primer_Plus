@@ -7,8 +7,8 @@
 int chapter_10_main()
 {
     std::cout << "Hello Chapter 10!\n" << std::endl;
-    // useStock2();
     // code_1003_useStock0();
-    code_1006_useStock1();
+    // code_1006_useStock1();
+    useStock2();
     return 0;
 }

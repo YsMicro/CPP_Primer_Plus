@@ -12,23 +12,23 @@ add_executable(CPP_Primer_Plus main.cpp
         src/chapter_12/Code/vegNews.cpp
         src/chapter_11/chapter_11_main.cpp
         src/chapter_11/chapter_11_head.h
-        src/chapter_11/myTime0.cpp
-        src/chapter_11/sueTime0.cpp
-        src/chapter_11/myTime1.cpp
-        src/chapter_11/myTime1.h
-        src/chapter_11/useTime1.cpp
-        src/chapter_11/myTime2.cpp
-        src/chapter_11/myTime2.h
-        src/chapter_11/useTime2.cpp
-        src/chapter_11/myTime3.cpp
-        src/chapter_11/myTime3.h
-        src/chapter_11/useTime3.cpp
-        src/chapter_11/vector.cpp
-        src/chapter_11/vector.h
-        src/chapter_11/rand_walk.cpp
-        src/chapter_11/stoneWT.h
-        src/chapter_11/stoneWT.cpp
-        src/chapter_11/stone.cpp
+        src/chapter_11/Code/1102_myTime0.cpp
+        src/chapter_11/Code/1103_useTime0.cpp
+        src/chapter_11/Code/1105_myTime1.cpp
+        src/chapter_11/Code/1104_myTime1.h
+        src/chapter_11/Code/1106_useTime1.cpp
+        src/chapter_11/Code/1108_myTime2.cpp
+        src/chapter_11/Code/1107_myTime2.h
+        src/chapter_11/Code/1109_useTime2.cpp
+        src/chapter_11/Code/1111_myTime3.cpp
+        src/chapter_11/Code/1110_myTime3.h
+        src/chapter_11/Code/1112_useTime3.cpp
+        src/chapter_11/Code/1114_vector.cpp
+        src/chapter_11/Code/1113_vector.h
+        src/chapter_11/Code/1115_rand_walk.cpp
+        src/chapter_11/Code/1116_stoneWT.h
+        src/chapter_11/Code/1117_stoneWT.cpp
+        src/chapter_11/Code/1118_stone.cpp
         src/chapter_12/Code/sayings1.cpp
         src/chapter_12/Code/sayings2.cpp
         src/chapter_12/Code/string1.cpp
@@ -195,9 +195,9 @@ add_executable(CPP_Primer_Plus main.cpp
         src/chapter_10/Code/1004_stock10.h
         src/chapter_10/Code/1005_stock10.cpp
         src/chapter_10/Code/1006_useStock1.cpp
-        src/chapter_10/Code/stock20.h
-        src/chapter_10/Code/stock20.cpp
-        src/chapter_10/Code/useStock2.cpp
-        src/chapter_11/myTime0.h
+        src/chapter_10/Code/1007_stock20.h
+        src/chapter_10/Code/1008_stock20.cpp
+        src/chapter_10/Code/1009_useStock2.cpp
+        src/chapter_11/Code/1101_myTime0.h
 
 )
