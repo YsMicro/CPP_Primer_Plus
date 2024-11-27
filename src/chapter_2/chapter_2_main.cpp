@@ -2,8 +2,8 @@
 
 int chapter_2_main()
 {
-    code_0201_my_first();
-    //carrots();
+    // code_0201_my_first();
+    code_0202_carrots();
     //getinfo();
     //sqrt();
     //ourfunc_main();   

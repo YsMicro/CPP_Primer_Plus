@@ -4,7 +4,7 @@
 using namespace std;
 
 int code_0201_my_first();
-int carrots();
+int code_0202_carrots();
 int getinfo();
 int sqrt();
 int ourfunc_main();

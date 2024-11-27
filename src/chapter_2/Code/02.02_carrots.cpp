@@ -1,16 +1,9 @@
-//carrots.cpp ʳ����̳���
-//ʹ�ú���ʾֵ
-
 #include <iostream>
-//#include "chapter_2_head.h"
 
-
-int carrots()
+int code_0202_carrots()
 {
     using namespace std;
-    int carrots;
-
-    carrots = 25;
+    int carrots = 25;
     cout << "I have ";
     cout << carrots;
     cout << " carrots.";
