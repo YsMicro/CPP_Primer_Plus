@@ -6,7 +6,7 @@
 #include "1004_stock10.h"
 
 // constructors (verbose versions)
-Stock::Stock()        // default constructor
+Stock10::Stock10()        // default constructor
 {
     std::cout << "Default constructor called\n";
     company = "no name";
@@ -15,7 +15,7 @@ Stock::Stock()        // default constructor
     total_val = 0.0;
 }
 
-Stock::Stock(const std::string &co, long n, double pr) {
+Stock10::Stock10(const std::string &co, long n, double pr) {
     std::cout << "Constructor using " << co << " called\n";
     company = co;
 
@@ -30,13 +30,13 @@ Stock::Stock(const std::string &co, long n, double pr) {
 }
 
 // class destructor
-Stock::~Stock()        // verbose class destructor
+Stock10::~Stock10()        // verbose class destructor
 {
     std::cout << "Bye, " << company << "!\n";
 }
 
 // other methods
-void Stock::buy(long num, double price) {
+void Stock10::buy(long num, double price) {
     if (num < 0) {
         std::cout << "Number of shares purchased can't be negative. "
                   << "Transaction is aborted.\n";
@@ -47,7 +47,7 @@ void Stock::buy(long num, double price) {
     }
 }
 
-void Stock::sell(long num, double price) {
+void Stock10::sell(long num, double price) {
     using std::cout;
     if (num < 0) {
         cout << "Number of shares sold can't be negative. "
@@ -62,12 +62,12 @@ void Stock::sell(long num, double price) {
     }
 }
 
-void Stock::update(double price) {
+void Stock10::update(double price) {
     share_val = price;
     set_tot();
 }
 
-void Stock::show() {
+void Stock10::show() {
     using std::cout;
     using std::ios_base;
     // set format to #.###

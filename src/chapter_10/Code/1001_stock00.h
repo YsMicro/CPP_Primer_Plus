@@ -7,7 +7,7 @@
 
 #include <string>
 
-class Stock {
+class Stock00 {
 private:
     std::string company;
     long shares;

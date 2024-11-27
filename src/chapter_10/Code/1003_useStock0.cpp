@@ -5,7 +5,7 @@
 #include "1001_stock00.h"
 
 [[maybe_unused]] int code_1003_useStock0() {
-    Stock fluffy_the_cat;
+    Stock00 fluffy_the_cat;
     fluffy_the_cat.acquire("NanoSmart", 20, 12.50);
     fluffy_the_cat.show();
     fluffy_the_cat.buy(15, 18.125);

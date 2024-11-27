@@ -4,7 +4,7 @@
 #include <iostream>
 #include "1001_stock00.h"
 
-void Stock::acquire(const std::string &co, long n, double pr) {
+void Stock00::acquire(const std::string &co, long n, double pr) {
     company = co;
     if (n < 0) {
         std::cout << "Number of shares can't be negative;"
@@ -16,7 +16,7 @@ void Stock::acquire(const std::string &co, long n, double pr) {
     set_tot();
 }
 
-void Stock::buy(long num, double price) {
+void Stock00::buy(long num, double price) {
     if (num < 0) {
         std::cout << "Number of shares purchased can't be negative."
                   << "Transaction is aborted.\n";
@@ -27,7 +27,7 @@ void Stock::buy(long num, double price) {
     }
 }
 
-void Stock::sell(long num, double price) {
+void Stock00::sell(long num, double price) {
     using std::cout;
     if (num < 0) {
         cout << "Number of shares sold can't be negative."
@@ -42,12 +42,12 @@ void Stock::sell(long num, double price) {
     }
 }
 
-void Stock::update(double price) {
+void Stock00::update(double price) {
     share_val = price;
     set_tot();
 }
 
-void Stock::show() {
+void Stock00::show() {
     std::cout << "Company: " << company
               << " Shares: " << shares << '\n'
               << " Share Price: $" << share_val

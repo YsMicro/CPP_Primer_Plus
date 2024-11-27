@@ -10,12 +10,6 @@ add_executable(CPP_Primer_Plus main.cpp
         src/chapter_12/Code/string_bad.h
         src/chapter_12/Code/string_bad.cpp
         src/chapter_12/Code/vegNews.cpp
-        src/chapter_10/chapter_10_main.cpp
-        src/chapter_10/chapter_10_head.h
-        src/chapter_10/stock20.cpp
-        src/chapter_10/stock20.h
-        src/chapter_10/useStock2.cpp
-        src/chapter_11/myTime0.h
         src/chapter_11/chapter_11_main.cpp
         src/chapter_11/chapter_11_head.h
         src/chapter_11/myTime0.cpp
@@ -193,11 +187,17 @@ add_executable(CPP_Primer_Plus main.cpp
         src/chapter_8/Code/08_01_inline.cpp
         src/chapter_8/Code/08_09_left.cpp
         src/chapter_8/Code/08_10_leftOver.cpp
+        src/chapter_10/chapter_10_main.cpp
+        src/chapter_10/chapter_10_head.h
         src/chapter_10/Code/1001_stock00.h
         src/chapter_10/Code/1002_stock00.cpp
         src/chapter_10/Code/1003_useStock0.cpp
         src/chapter_10/Code/1004_stock10.h
         src/chapter_10/Code/1005_stock10.cpp
         src/chapter_10/Code/1006_useStock1.cpp
+        src/chapter_10/Code/stock20.h
+        src/chapter_10/Code/stock20.cpp
+        src/chapter_10/Code/useStock2.cpp
+        src/chapter_11/myTime0.h
 
 )
