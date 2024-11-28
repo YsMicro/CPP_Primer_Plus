@@ -2,7 +2,7 @@
 using namespace std;
 void simon(int);
 
-int ourfunc_main()
+int code_0205_our_func()
 {
     simon(3);
     cout << "Pick an integer:";
@@ -15,6 +15,5 @@ int ourfunc_main()
 
 void simon(int n)
 {
-    cout << "Simon ˵�����ֺ " << n << " �Ρ�" << endl;
-    //void ��������Ҫ return
+    cout << "Simon says touch your toes " << n << " times." << endl;
 }
