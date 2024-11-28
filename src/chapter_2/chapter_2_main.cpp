@@ -4,9 +4,9 @@ int chapter_2_main()
 {
     // code_0201_my_first();
     // code_0202_carrots();
-    code_0203_getinfo();
-    //sqrt();
-    //ourfunc_main();   
+    // code_0203_getinfo();
+    code_0204_sqrt();
+    // ourfunc_main();
     //convert_main();
     //myname();
     //long_convert();
