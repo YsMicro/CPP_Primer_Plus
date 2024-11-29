@@ -13,6 +13,7 @@ int chapter_7_main()
     // code_06_arrFun_2();
     // code_07_arrFun_3();
     // code_08_arrFun_4();
-    code_09_strgfun();
+    // code_09_strgfun();
+    code_10_strgback();
     return 0;
 }

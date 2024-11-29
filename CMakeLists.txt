@@ -207,5 +207,7 @@ add_executable(CPP_Primer_Plus main.cpp
         src/chapter_12/Code/string_bad.cpp
         src/chapter_12/Code/vegNews.cpp
         src/chapter_7/Code/07_09_strgfun.cpp
+        src/chapter_7/Code/07_10_strgback.cpp
+        src/chapter_7/Code/07_11_travel.cpp
 
 )

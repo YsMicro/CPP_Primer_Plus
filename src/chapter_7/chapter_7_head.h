@@ -23,4 +23,6 @@
 
 [[maybe_unused]] int code_09_strgfun();
 
+[[maybe_unused]] int code_10_strgback();
+
 #endif //CPP_PRIMER_PLUS_CHAPTER_7_HEAD_H
