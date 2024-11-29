@@ -5,9 +5,10 @@
 
 const int SIZE = 8;
 
-int sumArr(const int *begin, const int *end);
+int sumArr(const int* begin, const int* end);
 
-[[maybe_unused]] int code_08_arrFun_4() {
+[[maybe_unused]] int code_08_arrFun_4()
+{
     using namespace std;
     int cookies[SIZE] = {1, 2, 4, 8, 16, 32, 64, 128};
     int sum = sumArr(cookies, cookies + SIZE);
@@ -20,9 +21,11 @@ int sumArr(const int *begin, const int *end);
 }
 
 //返回整数数组的总和
-int sumArr(const int *begin, const int *end) {
+int sumArr(const int* begin, const int* end)
+{
     int total = 0;
-    for (const int* pt = begin; pt != end; pt++) {
+    for (const int* pt = begin; pt != end; pt++)
+    {
         total = total + *pt;
     }
     return total;

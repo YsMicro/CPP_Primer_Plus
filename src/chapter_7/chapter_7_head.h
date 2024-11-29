@@ -21,4 +21,6 @@
 
 [[maybe_unused]] int code_08_arrFun_4();
 
+[[maybe_unused]] int code_09_strgfun();
+
 #endif //CPP_PRIMER_PLUS_CHAPTER_7_HEAD_H

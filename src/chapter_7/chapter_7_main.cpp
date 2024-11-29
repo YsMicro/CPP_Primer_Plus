@@ -10,8 +10,9 @@ int chapter_7_main()
     // code_03_twoArg();
     // code_04_lotto();
     // code_05_arrFun_1();
-    code_06_arrFun_2();
+    // code_06_arrFun_2();
     // code_07_arrFun_3();
     // code_08_arrFun_4();
+    code_09_strgfun();
     return 0;
 }
