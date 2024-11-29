@@ -2,20 +2,20 @@
 // Created by Vojago on 2024/5/12.
 //
 #include <iostream>
-
-void simple();//函数原型
-
-[[maybe_unused]] int code_01_calling() {
+void simple(); //函数原型
+[[maybe_unused]] int code_01_calling()
+{
     using namespace std;
     cout << "code_01() 将调用 simple() 函数:\n";
     simple();
     cout << "code_01() 以 simple() 函数结束:\n";
-//    cin.get();
+    //    cin.get();
     return 0;
 }
 
 //函数定义
-void simple() {
+void simple()
+{
     using namespace std;
     cout << "我就是 simple() 函数。\n";
 }

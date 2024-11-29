@@ -21,9 +21,8 @@ int sumArr(const int *begin, const int *end);
 
 //返回整数数组的总和
 int sumArr(const int *begin, const int *end) {
-    const int *pt;
     int total = 0;
-    for (pt = begin; pt != end; pt++) {
+    for (const int* pt = begin; pt != end; pt++) {
         total = total + *pt;
     }
     return total;
