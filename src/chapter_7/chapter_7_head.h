@@ -26,5 +26,6 @@
 [[maybe_unused]] int code_10_strgback();
 
 int code_11_travel();
+int code_12_structfun();
 
 #endif //CPP_PRIMER_PLUS_CHAPTER_7_HEAD_H
