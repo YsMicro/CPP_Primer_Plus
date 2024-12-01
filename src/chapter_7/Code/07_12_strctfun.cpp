@@ -46,7 +46,7 @@ polar rect2polar(rectangle xypos)
     return answer;
 }
 
-void show_polar(polar dapos)
+void show_polar(polar dapos) // 传递和调用整个结构
 {
     using namespace std;
     const double Red_to_deg = 57.29577951;
