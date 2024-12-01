@@ -15,6 +15,7 @@ int chapter_7_main()
     // code_08_arrFun_4();
     // code_09_strgfun();
     // code_10_strgback();
-    code_11_travel();
+    // code_11_travel();
+    code_12_structfun();
     return 0;
 }
