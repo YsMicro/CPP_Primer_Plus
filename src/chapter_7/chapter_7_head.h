@@ -29,5 +29,6 @@ int code_11_travel();
 int code_12_structfun();
 int code_13_strctptr();
 int code_14_topfive();
+int code_15_arrobj();
 
 #endif //CPP_PRIMER_PLUS_CHAPTER_7_HEAD_H
