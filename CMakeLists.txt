@@ -210,5 +210,6 @@ add_executable(CPP_Primer_Plus main.cpp
         src/chapter_7/Code/07_10_strgback.cpp
         src/chapter_7/Code/07_11_travel.cpp
         src/chapter_7/Code/07_12_strctfun.cpp
+        src/chapter_7/Code/07_13_strctptr.cpp
 
 )
