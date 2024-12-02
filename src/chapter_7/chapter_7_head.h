@@ -30,5 +30,6 @@ int code_12_structfun();
 int code_13_strctptr();
 int code_14_topfive();
 int code_15_arrobj();
+int code_16_recur();
 
 #endif //CPP_PRIMER_PLUS_CHAPTER_7_HEAD_H
