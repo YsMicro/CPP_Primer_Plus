@@ -20,6 +20,7 @@ int chapter_7_main()
     // code_13_strctptr();
     // code_14_topfive();
     // code_15_arrobj();
-    code_16_recur();
+    // code_16_recur();
+    code_17_ruler();
     return 0;
 }
