@@ -32,5 +32,6 @@ int code_14_topfive();
 int code_15_arrobj();
 int code_16_recur();
 int code_17_ruler();
+int code_18_fun_ptr();
 
 #endif //CPP_PRIMER_PLUS_CHAPTER_7_HEAD_H

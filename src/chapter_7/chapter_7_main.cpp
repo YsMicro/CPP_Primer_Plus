@@ -21,6 +21,7 @@ int chapter_7_main()
     // code_14_topfive();
     // code_15_arrobj();
     // code_16_recur();
-    code_17_ruler();
+    // code_17_ruler();
+    code_18_fun_ptr();
     return 0;
 }
