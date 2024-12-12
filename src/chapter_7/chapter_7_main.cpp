@@ -22,6 +22,7 @@ int chapter_7_main()
     // code_15_arrobj();
     // code_16_recur();
     // code_17_ruler();
-    code_18_fun_ptr();
+    // code_18_fun_ptr();
+    code_19_arfupt();
     return 0;
 }

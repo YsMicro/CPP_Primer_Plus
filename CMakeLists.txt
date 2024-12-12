@@ -3,8 +3,10 @@ project(CPP_Primer_Plus)
 
 set(CMAKE_CXX_STANDARD 20)
 
+add_executable(Code main.cpp)
 add_executable(CPP_Primer_Plus main.cpp
         head.h
+        #[[
         src/chapter_12/Code/sayings1.cpp
         src/chapter_12/Code/sayings2.cpp
         src/chapter_12/Code/string1.cpp
@@ -15,7 +17,9 @@ add_executable(CPP_Primer_Plus main.cpp
         src/chapter_13/Code/tab_tenn1.cpp
         src/chapter_13/Code/tab_tenn1.h
         src/chapter_13/Code/use_tt1.cpp
-        #chapter 2
+        ]]
+        # **********chapter 2**********
+        #[[
         src/chapter_2/code/02.01_myfirst.cpp
         src/chapter_2/code/02.02_carrots.cpp
         src/chapter_2/code/02.03_getinfo.cpp
@@ -31,7 +35,9 @@ add_executable(CPP_Primer_Plus main.cpp
         src/chapter_2/Practice/Test_5.cpp
         src/chapter_2/Practice/Test_6.cpp
         src/chapter_2/Practice/Test_7.cpp
-        #chapter 3
+        ]]
+        # **********chapter 3**********
+        #[[
         src/chapter_3/Code/03.01_limits.cpp
         src/chapter_3/Code/03.02_exceed.cpp
         src/chapter_3/Code/03.03_hexoct1.cpp
@@ -55,7 +61,9 @@ add_executable(CPP_Primer_Plus main.cpp
         src/chapter_3/Practice/exercise_7.cpp
         src/chapter_3/chapter_3_head.h
         src/chapter_3/chapter_3_main.cpp
-        #chapter 4
+        ]]
+        # **********chapter 4**********
+        #[[
         src/chapter_4/Code/04.01_arrayone.cpp
         src/chapter_4/Code/04.02_string.cpp
         src/chapter_4/Code/04.03_instr1.cpp
@@ -92,7 +100,9 @@ add_executable(CPP_Primer_Plus main.cpp
         src/chapter_4/Practice/practice_8.cpp
         src/chapter_4/Practice/practice_9.cpp
         src/chapter_4/Practice/practice_10.cpp
-        #chapter 5
+        ]]
+        # **********chapter 5**********
+        #[[
         src/chapter_5/Code/05.01_forloop.cpp
         src/chapter_5/Code/05.02_num_test.cpp
         src/chapter_5/Code/05.03_express.cpp
@@ -125,7 +135,9 @@ add_executable(CPP_Primer_Plus main.cpp
         src/chapter_5/Practice/05.08.cpp
         src/chapter_5/Practice/05.09.cpp
         src/chapter_5/Practice/05.10.cpp
-        #chapter 6
+        ]]
+        # **********chapter 6**********
+        #[[
         src/chapter_6/chapter_6_head.h
         src/chapter_6/chapter_6_main.cpp
         src/chapter_6/Code/06_01_if.cpp
@@ -153,7 +165,11 @@ add_executable(CPP_Primer_Plus main.cpp
         src/chapter_6/Practice/06_07.cpp
         src/chapter_6/Practice/06_08.cpp
         src/chapter_6/Practice/06_09.cpp
-        #chapter 7
+        ]]
+        # **********chapter 7**********
+#        [[
+        src/chapter_7/chapter_7_head.h
+        src/chapter_7/chapter_7_main.cpp
         src/chapter_7/Code/07_01_calling.cpp
         src/chapter_7/Code/07_02_protos.cpp
         src/chapter_7/Code/07_03_twoArg.cpp
@@ -162,14 +178,31 @@ add_executable(CPP_Primer_Plus main.cpp
         src/chapter_7/Code/07_06_arrFun_2.cpp
         src/chapter_7/Code/07_07_arrFun_3.cpp
         src/chapter_7/Code/07_08_arrFun_4.cpp
-        src/chapter_7/chapter_7_head.h
-        src/chapter_7/chapter_7_main.cpp
-        #chapter 8
+        src/chapter_7/Code/07_09_strgfun.cpp
+        src/chapter_7/Code/07_10_strgback.cpp
+        src/chapter_7/Code/07_11_travel.cpp
+        src/chapter_7/Code/07_12_strctfun.cpp
+        src/chapter_7/Code/07_13_strctptr.cpp
+        src/chapter_7/Code/07_14_topfive.cpp
+        src/chapter_7/Code/07_15_arrobj.cpp
+        src/chapter_7/Code/07_16_recur.cpp
+        src/chapter_7/Code/07_17_ruler.cpp
+        src/chapter_7/Code/07_18_fun_ptr.cpp
+        src/chapter_7/Code/07_19_arfupt.cpp
+        src/chapter_7/practice_1.cpp
+
+        # **********chapter 8**********
+        #[[
         src/chapter_8/chapter_8_head.h
         src/chapter_8/chapter_8_main.cpp
         src/chapter_8/Code/08_01_inline.cpp
         src/chapter_8/Code/08_09_left.cpp
         src/chapter_8/Code/08_10_leftOver.cpp
+        ]]
+        # **********chapter 9**********
+
+        # **********chapter 10**********
+        #[[
         src/chapter_10/chapter_10_main.cpp
         src/chapter_10/chapter_10_head.h
         src/chapter_10/Code/1001_stock00.h
@@ -181,6 +214,9 @@ add_executable(CPP_Primer_Plus main.cpp
         src/chapter_10/Code/1007_stock20.h
         src/chapter_10/Code/1008_stock20.cpp
         src/chapter_10/Code/1009_useStock2.cpp
+        ]]
+        # **********chapter 11**********
+        #[[
         src/chapter_11/chapter_11_main.cpp
         src/chapter_11/chapter_11_head.h
         src/chapter_11/Code/1101_myTime0.h
@@ -201,20 +237,15 @@ add_executable(CPP_Primer_Plus main.cpp
         src/chapter_11/Code/1116_stoneWT.h
         src/chapter_11/Code/1117_stoneWT.cpp
         src/chapter_11/Code/1118_stone.cpp
+        ]]
+        # **********chapter 12**********
+        #[[
         src/chapter_12/chapter_12_main.cpp
         src/chapter_12/chapter_12_head.h
         src/chapter_12/Code/string_bad.h
         src/chapter_12/Code/string_bad.cpp
         src/chapter_12/Code/vegNews.cpp
-        src/chapter_7/Code/07_09_strgfun.cpp
-        src/chapter_7/Code/07_10_strgback.cpp
-        src/chapter_7/Code/07_11_travel.cpp
-        src/chapter_7/Code/07_12_strctfun.cpp
-        src/chapter_7/Code/07_13_strctptr.cpp
-        src/chapter_7/Code/07_14_topfive.cpp
-        src/chapter_7/Code/07_15_arrobj.cpp
-        src/chapter_7/Code/07_16_recur.cpp
-        src/chapter_7/Code/07_17_ruler.cpp
-        src/chapter_7/Code/07_18_fun_ptr.cpp
+        ]]
+
 
 )
