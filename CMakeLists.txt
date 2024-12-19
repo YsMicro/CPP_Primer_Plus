@@ -189,7 +189,8 @@ add_executable(CPP_Primer_Plus main.cpp
         src/chapter_7/Code/07_17_ruler.cpp
         src/chapter_7/Code/07_18_fun_ptr.cpp
         src/chapter_7/Code/07_19_arfupt.cpp
-        src/chapter_7/practice_1.cpp
+        src/chapter_7/Practice/practice_1.cpp
+        src/chapter_7/Practice/practice_2.cpp
 
         # **********chapter 8**********
         #[[
