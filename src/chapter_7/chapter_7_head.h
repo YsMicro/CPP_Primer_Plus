@@ -35,5 +35,6 @@ int code_17_ruler();
 int code_18_fun_ptr();
 int code_19_arfupt();
 int practice_1();
+int practice_2();
 
 #endif //CPP_PRIMER_PLUS_CHAPTER_7_HEAD_H

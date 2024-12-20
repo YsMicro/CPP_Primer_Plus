@@ -24,6 +24,7 @@ int chapter_7_main()
     // code_17_ruler();
     // code_18_fun_ptr();
     // code_19_arfupt();
-    practice_1();
+    // practice_1();
+    practice_2();
     return 0;
 }
